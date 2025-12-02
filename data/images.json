@@ -1,3 +1,5 @@
 [
-  { "serial": "cw-001", "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/audi-cw-001-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/audi-cw-001-2.webp"] }
+  { "serial": "cw-001", "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/audi-cw-001.jpg"] }
+,
+  { "serial": "cw-002", "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/audi-cw-002.jpg"] }
 ]
