@@ -16,38 +16,53 @@ jobs:
       - name: Install ImageMagick
         run: sudo apt-get update && sudo apt-get install imagemagick -y
 
-      - name: Process images
+      - name: Process images and generate JSON
         run: |
           mkdir -p images/cars
           mkdir -p data
 
-          # Temporary file for JSON
-          TMP_JSON="data/tmp.json"
-          echo "" > $TMP_JSON
+          declare -A serialMap
 
+          # Process each image in images/new/
           for img in images/new/*; do
             filename=$(basename "$img")
-            # clean filename: lowercase, replace spaces with -
+            # Clean filename: lowercase, replace spaces with -
             cleaned=$(echo "$filename" | tr '[:upper:] ' '[:lower:]-')
-            
-            # optimize & resize if larger than 2000px
+
+            # Resize & optimize
             convert "$img" -resize 2000x2000\> -strip -quality 85 "images/cars/$cleaned"
 
-            # generate raw URL
-            url="https://raw.githubusercontent.com/${{ github.repository }}/main/images/cars/$cleaned"
-
-            echo "{ \"file\": \"$cleaned\", \"url\": \"$url\" }," >> $TMP_JSON
-
-            echo "Processed $filename → $cleaned"
+            # Extract serial from filename (CW-001 pattern)
+            if [[ "$cleaned" =~ -(cw-[0-9]+) ]]; then
+              serial="${BASH_REMATCH[1]}"
+              # Initialize array if not exists
+              if [ -z "${serialMap[$serial]}" ]; then
+                serialMap[$serial]=""
+              fi
+              # Append URL to array (comma separated for now)
+              url="https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/main/images/cars/$cleaned"
+              if [ -z "${serialMap[$serial]}" ]; then
+                serialMap[$serial]="\"$url\""
+              else
+                serialMap[$serial]="${serialMap[$serial]}, \"$url\""
+              fi
+            fi
           done
 
-          # Finalize JSON
+          # Generate JSON array
           echo "[" > data/images.json
-          sed '$ s/,$//' $TMP_JSON >> data/images.json
+          first=true
+          for key in "${!serialMap[@]}"; do
+            if [ "$first" = true ]; then
+              first=false
+            else
+              echo "," >> data/images.json
+            fi
+            echo "  { \"serial\": \"$key\", \"images\": [${serialMap[$key]}] }" >> data/images.json
+          done
           echo "]" >> data/images.json
-          rm $TMP_JSON
 
-          # Remove processed images from new folder
+          # Clean images/new/
           rm -f images/new/*
 
       - name: Commit changes
@@ -57,4 +72,3 @@ jobs:
           git add images/cars data/images.json
           git commit -m "Processed new images" || echo "No changes to commit"
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
-
