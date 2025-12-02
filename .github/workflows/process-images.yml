@@ -1,0 +1,59 @@
+name: Process New Images
+
+on:
+  push:
+    paths:
+      - "images/new/**"
+
+jobs:
+  process-images:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Install ImageMagick
+        run: sudo apt-get update && sudo apt-get install imagemagick -y
+
+      - name: Process images
+        run: |
+          mkdir -p images/cars
+          mkdir -p data
+
+          # Temporary file for JSON
+          TMP_JSON="data/tmp.json"
+          echo "" > $TMP_JSON
+
+          for img in images/new/*; do
+            filename=$(basename "$img")
+            # clean filename: lowercase, replace spaces with -
+            cleaned=$(echo "$filename" | tr '[:upper:] ' '[:lower:]-')
+            
+            # optimize & resize if larger than 2000px
+            convert "$img" -resize 2000x2000\> -strip -quality 85 "images/cars/$cleaned"
+
+            # generate raw URL
+            url="https://raw.githubusercontent.com/${{ github.repository }}/main/images/cars/$cleaned"
+
+            echo "{ \"file\": \"$cleaned\", \"url\": \"$url\" }," >> $TMP_JSON
+
+            echo "Processed $filename → $cleaned"
+          done
+
+          # Finalize JSON
+          echo "[" > data/images.json
+          sed '$ s/,$//' $TMP_JSON >> data/images.json
+          echo "]" >> data/images.json
+          rm $TMP_JSON
+
+          # Remove processed images from new folder
+          rm -f images/new/*
+
+      - name: Commit changes
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add images/cars data/images.json
+          git commit -m "Processed new images" || echo "No changes to commit"
+          git push
