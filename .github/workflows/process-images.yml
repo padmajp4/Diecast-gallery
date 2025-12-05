@@ -17,6 +17,7 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y imagemagick
 
       - name: Process images and generate JSON
+        shell: bash
         run: |
           mkdir -p images/cars
           mkdir -p data
@@ -36,27 +37,25 @@ jobs:
 
             echo "Processing: $file"
 
-            # Extract serial such as CW-001 or CW-100
+            # Extract serial Code
             serial=$(echo "$file" | grep -oE 'CW-[0-9]+')
             if [[ -z "$serial" ]]; then
-              echo "❌ No serial found in $file — skipping"
+              echo "❌ No serial found — skipping"
               continue
             fi
 
-            # Check whether this is a featured image
+            # Check featured
             if [[ "$file" == *"-featured"* ]]; then
               type="featured"
             else
               type="normal"
             fi
 
-            # Resize and optimize
+            # Resize + optimize
             convert "$img" -resize 2000x2000\> -strip -quality 85 "images/cars/$file"
 
-            # FULL RAW URL
             url="https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/main/images/cars/$file"
 
-            # Assign to maps
             if [[ "$type" == "featured" ]]; then
               featuredMap[$serial]="\"$url\""
             else
@@ -95,7 +94,6 @@ jobs:
           echo "" >> data/images.json
           echo "]" >> data/images.json
 
-          echo "Cleaning new images…"
           rm -f images/new/*
 
       - name: Commit changes
