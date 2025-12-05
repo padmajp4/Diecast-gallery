@@ -13,8 +13,10 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Install ImageMagick
-        run: sudo apt-get update && sudo apt-get install -y imagemagick
+      - name: Install ImageMagick + WebP support
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick webp
 
       - name: Process images and generate JSON
         shell: bash
@@ -29,7 +31,7 @@ jobs:
           for img in images/new/*; do
             file=$(basename "$img")
 
-            # Skip if not an image
+            # Skip non-images
             if [[ ! "$file" =~ \.(jpg|jpeg|png|webp|JPG|JPEG|PNG|WEBP)$ ]]; then
               echo "Skipping non-image: $file"
               continue
@@ -37,25 +39,30 @@ jobs:
 
             echo "Processing: $file"
 
-            # Extract serial Code
+            # Extract serial
             serial=$(echo "$file" | grep -oE 'CW-[0-9]+')
             if [[ -z "$serial" ]]; then
               echo "❌ No serial found — skipping"
               continue
             fi
 
-            # Check featured
+            # Detect featured
             if [[ "$file" == *"-featured"* ]]; then
               type="featured"
             else
               type="normal"
             fi
 
-            # Resize + optimize
-            convert "$img" -resize 2000x2000\> -strip -quality 85 "images/cars/$file"
+            # Convert safely
+            if ! convert "$img" -resize 2000x2000\> -strip -quality 85 "images/cars/$file"; then
+              echo "❌ Failed to convert $file — skipping"
+              continue
+            fi
 
+            # RAW URL
             url="https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/main/images/cars/$file"
 
+            # Add to lists
             if [[ "$type" == "featured" ]]; then
               featuredMap[$serial]="\"$url\""
             else
@@ -67,7 +74,7 @@ jobs:
             fi
           done
 
-          echo "Generating JSON…"
+          echo "Generating images.json…"
 
           echo "[" > data/images.json
           first=true
