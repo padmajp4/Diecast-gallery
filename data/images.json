@@ -1,0 +1,32 @@
+[
+  {
+    "serial": "CW-011",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/sky-CW-011.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-050",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/honda-CW-050.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-051",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/honda-CW-051.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-052",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/honda-CW-052.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-054",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/honda-CW-054.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-100",
+    "images": [],
+    "featuredImage": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/dmc-CW-100-featured.png"
+  }
+]
