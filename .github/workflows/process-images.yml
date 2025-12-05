@@ -22,46 +22,61 @@ jobs:
           mkdir -p data
 
           declare -A serialMap
+          declare -A featuredMap
 
           # Process each image in images/new/
           for img in images/new/*; do
             filename=$(basename "$img")
-            cleaned="$filename"  # KEEP original case, do not lowercase
+            cleaned="$filename"  # keep original case
 
             # Resize & optimize
             convert "$img" -resize 2000x2000\> -strip -quality 85 "images/cars/$cleaned"
 
-            # Extract serial from filename (CW-001 pattern)
+            # Extract serial (CW-001)
             if [[ "$cleaned" =~ -(CW-[0-9]+) ]]; then
               serial="${BASH_REMATCH[1]}"
-              # Initialize array if not exists
-              if [ -z "${serialMap[$serial]}" ]; then
-                serialMap[$serial]=""
-              fi
-              # Append URL to array (comma separated for now)
+
+              # Build GitHub RAW URL
               url="https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/main/images/cars/$cleaned"
-              if [ -z "${serialMap[$serial]}" ]; then
-                serialMap[$serial]="\"$url\""
+
+              # Check if featured file (ends with -featured)
+              if [[ "$cleaned" =~ -featured\. ]]; then
+                featuredMap[$serial]="$url"
               else
-                serialMap[$serial]="${serialMap[$serial]}, \"$url\""
+                # Add to normal images array
+                if [ -z "${serialMap[$serial]}" ]; then
+                  serialMap[$serial]="\"$url\""
+                else
+                  serialMap[$serial]="${serialMap[$serial]}, \"$url\""
+                fi
               fi
             fi
           done
 
-          # Generate JSON array
+          # Generate final JSON
           echo "[" > data/images.json
           first=true
-          for key in "${!serialMap[@]}"; do
+
+          for serial in "${!serialMap[@]}"; do
             if [ "$first" = true ]; then
               first=false
             else
               echo "," >> data/images.json
             fi
-            echo "  { \"serial\": \"$key\", \"images\": [${serialMap[$key]}] }" >> data/images.json
+
+            imagesList=${serialMap[$serial]}
+            featuredUrl=${featuredMap[$serial]}
+
+            if [ -n "$featuredUrl" ]; then
+              echo "  { \"serial\": \"$serial\", \"images\": [$imagesList], \"featuredImage\": \"$featuredUrl\" }" >> data/images.json
+            else
+              echo "  { \"serial\": \"$serial\", \"images\": [$imagesList] }" >> data/images.json
+            fi
           done
+
           echo "]" >> data/images.json
 
-          # Clean images/new/
+          # Clean new uploads
           rm -f images/new/*
 
       - name: Commit changes
