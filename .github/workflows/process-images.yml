@@ -2,9 +2,8 @@ name: Process New Images
 
 on:
   push:
-    branches:
-      - main   # runs on every push to main
-  workflow_dispatch:     # allow manual trigger from Actions tab
+    paths:
+      - "images/new/**"
 
 jobs:
   process-images:
@@ -15,43 +14,49 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install ImageMagick
-        run: sudo apt-get update && sudo apt-get install imagemagick -y
+        run: sudo apt-get update && sudo apt-get install -y imagemagick
 
-      - name: Process images + Build JSON
+      - name: Process images and generate JSON
         run: |
           mkdir -p images/cars
           mkdir -p data
-          
-          # -----------------------------
-          # BUILD ASSOCIATIVE ARRAYS
-          # -----------------------------
+
           declare -A normalMap
           declare -A featuredMap
 
-          echo "Scanning images/new..."
-          
           shopt -s nullglob
           for img in images/new/*; do
             file=$(basename "$img")
 
-            # ----------------------------------------
-            # CHECK IF IMAGE IS FEATURED OR NORMAL
-            # ----------------------------------------
-            if [[ "$file" =~ -featured\.jpg$ ]]; then
-              serial=$(echo "$file" | sed -E 's/.*-(CW-[0-9]+)-featured\.jpg/\1/')
+            # Skip if not an image
+            if [[ ! "$file" =~ \.(jpg|jpeg|png|webp|JPG|JPEG|PNG|WEBP)$ ]]; then
+              echo "Skipping non-image: $file"
+              continue
+            fi
+
+            echo "Processing: $file"
+
+            # Extract serial such as CW-001 or CW-100
+            serial=$(echo "$file" | grep -oE 'CW-[0-9]+')
+            if [[ -z "$serial" ]]; then
+              echo "❌ No serial found in $file — skipping"
+              continue
+            fi
+
+            # Check whether this is a featured image
+            if [[ "$file" == *"-featured"* ]]; then
               type="featured"
             else
-              serial=$(echo "$file" | sed -E 's/.*-(CW-[0-9]+)\.jpg/\1/')
               type="normal"
             fi
 
-            [[ -z "$serial" ]] && continue
-
-            # Resize and save
+            # Resize and optimize
             convert "$img" -resize 2000x2000\> -strip -quality 85 "images/cars/$file"
 
+            # FULL RAW URL
             url="https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/main/images/cars/$file"
 
+            # Assign to maps
             if [[ "$type" == "featured" ]]; then
               featuredMap[$serial]="\"$url\""
             else
@@ -63,40 +68,40 @@ jobs:
             fi
           done
 
-          echo "Processing complete. Building JSON..."
+          echo "Generating JSON…"
 
-          # -------------------------
-          # BUILD images.json
-          # -------------------------
           echo "[" > data/images.json
           first=true
 
-          for serial in "${!normalMap[@]}"; do
-            if [ "$first" = true ]; then
+          all_serials=$(printf "%s\n" "${!normalMap[@]}" "${!featuredMap[@]}" | sort -u)
+
+          for serial in $all_serials; do
+            normal="${normalMap[$serial]}"
+            featured="${featuredMap[$serial]}"
+
+            if [[ "$first" == true ]]; then
               first=false
             else
               echo "," >> data/images.json
             fi
 
-            featuredValue=${featuredMap[$serial]:-"null"}
-
             echo "  {" >> data/images.json
             echo "    \"serial\": \"$serial\"," >> data/images.json
-            echo "    \"images\": [${normalMap[$serial]}]," >> data/images.json
-            echo "    \"featuredImage\": ${featuredValue}" >> data/images.json
-            echo "  }" >> data/images.json
+            echo "    \"images\": [${normal:-}]," >> data/images.json
+            echo "    \"featuredImage\": ${featured:-null}" >> data/images.json
+            echo -n "  }" >> data/images.json
           done
 
+          echo "" >> data/images.json
           echo "]" >> data/images.json
 
-          # Clean new folder
+          echo "Cleaning new images…"
           rm -f images/new/*
 
-      - name: Commit results
+      - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
           git add images/cars data/images.json
-          git commit -m "Processed new images" || echo "No changes to commit"
+          git commit -m "Processed images" || echo "No changes"
           git push
