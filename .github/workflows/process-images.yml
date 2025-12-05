@@ -33,39 +33,52 @@ jobs:
 
             # Skip non-images
             if [[ ! "$file" =~ \.(jpg|jpeg|png|webp|JPG|JPEG|PNG|WEBP)$ ]]; then
-              echo "Skipping: $file"
+              echo "Skipping non-image: $file"
               continue
             fi
 
             echo "Processing: $file"
 
-            # Extract serial like CW-001
+            # Extract CW-### serial
             serial=$(echo "$file" | grep -oE 'CW-[0-9]+')
             if [[ -z "$serial" ]]; then
-              echo "❌ No serial found in filename — skipping"
+              echo "❌ No serial found in $file — skipping"
               continue
             fi
 
-            # Featured?
+            ###########################################
+            # FEATURED IMAGE — COPY AS-IS (NO CONVERT)
+            ###########################################
             if [[ "$file" == *"-featured"* ]]; then
+              echo "Copying FEATURED image without converting: $file"
+              cp "$img" "images/cars/$file"
+              outFile="$file"
               type="featured"
+
+            ###########################################
+            # NORMAL IMAGE LOGIC
+            ###########################################
             else
               type="normal"
+
+              # Already WebP → keep as-is
+              if [[ "$file" =~ \.webp$ ]]; then
+                echo "Copying WEBP without convert: $file"
+                cp "$img" "images/cars/$file"
+                outFile="$file"
+
+              # JPG/PNG → convert to WebP
+              else
+                outFile="${file%.*}.webp"
+                echo "Converting to WebP: $file → $outFile"
+                convert "$img" -resize 2000x2000\> -strip -quality 85 "images/cars/$outFile"
+              fi
             fi
 
-            # Convert everything to WebP
-            out="images/cars/${file%.*}.webp"
-
-            if ! convert "$img" -resize 2000x2000\> -strip -quality 85 "$out"; then
-              echo "❌ Failed to convert $file — skipping"
-              continue
-            fi
-
-            # RAW URL
-            outFile=$(basename "$out")
+            # RAW GitHub URL
             url="https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/main/images/cars/$outFile"
 
-            # Append
+            # Store
             if [[ "$type" == "featured" ]]; then
               featuredMap[$serial]="\"$url\""
             else
@@ -77,9 +90,9 @@ jobs:
             fi
           done
 
-          # ------------------------------
-          # Generate images.json
-          # ------------------------------
+          ########################
+          # WRITE JSON
+          ########################
           echo "[" > data/images.json
           first=true
 
@@ -89,7 +102,7 @@ jobs:
             normal="${normalMap[$serial]}"
             featured="${featuredMap[$serial]}"
 
-            if [[ "$first" = true ]]; then
+            if [[ "$first" == true ]]; then
               first=false
             else
               echo "," >> data/images.json
@@ -113,5 +126,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add images/cars data/images.json
-          git commit -m "Processed images (converted to WebP)" || echo "No changes"
+          git commit -m "Processed images" || echo "No changes"
           git push
