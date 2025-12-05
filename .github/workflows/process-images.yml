@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Install ImageMagick + WebP support
+      - name: Install ImageMagick + WebP
         run: |
           sudo apt-get update
           sudo apt-get install -y imagemagick webp
@@ -33,36 +33,39 @@ jobs:
 
             # Skip non-images
             if [[ ! "$file" =~ \.(jpg|jpeg|png|webp|JPG|JPEG|PNG|WEBP)$ ]]; then
-              echo "Skipping non-image: $file"
+              echo "Skipping: $file"
               continue
             fi
 
             echo "Processing: $file"
 
-            # Extract serial
+            # Extract serial like CW-001
             serial=$(echo "$file" | grep -oE 'CW-[0-9]+')
             if [[ -z "$serial" ]]; then
-              echo "❌ No serial found — skipping"
+              echo "❌ No serial found in filename — skipping"
               continue
             fi
 
-            # Detect featured
+            # Featured?
             if [[ "$file" == *"-featured"* ]]; then
               type="featured"
             else
               type="normal"
             fi
 
-            # Convert safely
-            if ! convert "$img" -resize 2000x2000\> -strip -quality 85 "images/cars/$file"; then
+            # Convert everything to WebP
+            out="images/cars/${file%.*}.webp"
+
+            if ! convert "$img" -resize 2000x2000\> -strip -quality 85 "$out"; then
               echo "❌ Failed to convert $file — skipping"
               continue
             fi
 
             # RAW URL
-            url="https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/main/images/cars/$file"
+            outFile=$(basename "$out")
+            url="https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/main/images/cars/$outFile"
 
-            # Add to lists
+            # Append
             if [[ "$type" == "featured" ]]; then
               featuredMap[$serial]="\"$url\""
             else
@@ -74,8 +77,9 @@ jobs:
             fi
           done
 
-          echo "Generating images.json…"
-
+          # ------------------------------
+          # Generate images.json
+          # ------------------------------
           echo "[" > data/images.json
           first=true
 
@@ -85,7 +89,7 @@ jobs:
             normal="${normalMap[$serial]}"
             featured="${featuredMap[$serial]}"
 
-            if [[ "$first" == true ]]; then
+            if [[ "$first" = true ]]; then
               first=false
             else
               echo "," >> data/images.json
@@ -101,6 +105,7 @@ jobs:
           echo "" >> data/images.json
           echo "]" >> data/images.json
 
+          echo "Cleaning new images…"
           rm -f images/new/*
 
       - name: Commit changes
@@ -108,5 +113,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add images/cars data/images.json
-          git commit -m "Processed images" || echo "No changes"
+          git commit -m "Processed images (converted to WebP)" || echo "No changes"
           git push
