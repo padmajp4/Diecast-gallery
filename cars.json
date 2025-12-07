@@ -1089,7 +1089,7 @@
   },
   {
     "name": "2001 BMW M5",
-    "serial": "CW-065",
+    "serial": "2001 BMW M5",
     "brand": "Hot Wheels",
     "series": "Normal",
     "Manufacture": "BMW",
@@ -1100,7 +1100,7 @@
     "Scale": "1/64",
     "description": "A detailed miniature designed to replicate the look and feel of the real car in compact scale form.",
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi-CW-004.webp",
-    "featured": "",
+    "featured": "true",
     "Gifter": "",
     "featuredImage": ""
   },
