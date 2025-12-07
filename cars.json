@@ -1089,7 +1089,7 @@
   },
   {
     "name": "2001 BMW M5",
-    "serial": "2001 BMW M5",
+    "serial": "CW-065",
     "brand": "Hot Wheels",
     "series": "Normal",
     "Manufacture": "BMW",
@@ -1099,10 +1099,10 @@
     "isTreasurehunt": "false",
     "Scale": "1/64",
     "description": "A detailed miniature designed to replicate the look and feel of the real car in compact scale form.",
-    "images": "",
-    "featured": "",
+    "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/bmw-CW-065.webp",
+    "featured": "true",
     "Gifter": "",
-    "featuredImage": ""
+    "featuredImage": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/bmw-CW-065-featured.png"
   },
   {
     "name": "Maserati Shamal",
