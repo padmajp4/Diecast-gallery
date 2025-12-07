@@ -1082,10 +1082,10 @@
     "isTreasurehunt": "false",
     "Scale": "1/64",
     "description": "A detailed miniature designed to replicate the look and feel of the real car in compact scale form.",
-    "images": "",
-    "featured": "",
+    "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/bmw-CW-064.webp",
+    "featured": "true",
     "Gifter": "",
-    "featuredImage": ""
+    "featuredImage": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/bmw-CW-064-featured.png"
   },
   {
     "name": "2001 BMW M5",
@@ -1099,10 +1099,10 @@
     "isTreasurehunt": "false",
     "Scale": "1/64",
     "description": "A detailed miniature designed to replicate the look and feel of the real car in compact scale form.",
-    "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/bmw-CW-065.webp",
-    "featured": "true",
+    "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi-CW-004.webp",
+    "featured": "",
     "Gifter": "",
-    "featuredImage": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/bmw-CW-065-featured.png"
+    "featuredImage": ""
   },
   {
     "name": "Maserati Shamal",
