@@ -1,7 +1,7 @@
 [
   {
-    "serial": "CW-004",
-    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi-CW-004.webp"],
-    "featuredImage": null
+    "serial": "CW-065",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/bmw-CW-065.webp"],
+    "featuredImage": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/bmw-CW-065-featured.png"
   }
 ]
