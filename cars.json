@@ -76,7 +76,7 @@
     "year": 2022,
     "VehicleType": "Car",
     "Colour": "Yellow",
-    "isTreasurehunt": "true",
+    "isTreasurehunt": "false",
     "Scale": "1/64",
     "description": "A detailed miniature designed to replicate the look and feel of the real car in compact scale form.",
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi-CW-004.webp",
