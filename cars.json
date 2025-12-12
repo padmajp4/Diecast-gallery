@@ -2599,5 +2599,39 @@
     "featured": "",
     "Gifter": "",
     "featuredImage": ""
+  },
+  {
+    "name": "Polstar Trx",
+    "serial": "CW-154",
+    "brand": "Hot Wheels",
+    "series": "Normal",
+    "Manufacture": "Fantasy",
+    "year": 2022,
+    "VehicleType": "Car",
+    "Colour": "Silver",
+    "isTreasurehunt": "false",
+    "Scale": "1/64",
+    "description": "A detailed miniature designed to replicate the look and feel of the real car in compact scale form.",
+    "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi-CW-004.webp",
+    "featured": "",
+    "Gifter": "",
+    "featuredImage": ""
+  },
+  {
+    "name": "Honda CB750 Cafe",
+    "serial": "CW-155",
+    "brand": "Hot Wheels",
+    "series": "Normal",
+    "Manufacture": "Fantasy",
+    "year": 2025,
+    "VehicleType": "Motorcycle",
+    "Colour": "blue",
+    "isTreasurehunt": "false",
+    "Scale": "1/65",
+    "description": "A detailed miniature designed to replicate the look and feel of the real car in compact scale form.",
+    "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi-CW-004.webp",
+    "featured": "",
+    "Gifter": "",
+    "featuredImage": ""
   }
 ]
