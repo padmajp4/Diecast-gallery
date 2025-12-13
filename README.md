@@ -20,18 +20,18 @@ Built with vanilla JavaScript, JSON-driven data, Google Sheets sync, and Firebas
 
 🛠️ Tech Stack
 
-Frontend: HTML, CSS, JavaScript
-Data Source: Google Sheets (synced via GitHub Actions)
-Hosting: Firebase Hosting
-CI/CD: GitHub Actions (Car sheet → JSON → Deploy)
-Images: Uploaded manually to GitHub + referenced in Sheets
+- Frontend: HTML, CSS, JavaScript
+- Data Source: Google Sheets (synced via GitHub Actions)
+- Hosting: Firebase Hosting
+- CI/CD: GitHub Actions (Car sheet → JSON → Deploy)
+- Images: Uploaded manually to GitHub + referenced in Sheets
 
 📁 Project Structure
-/assets          → Images, brand logos, icon sets
-/js              → Main app logic (home, modal, config, admin)
-data.json        → Generated car database (auto from Sheets)
-firebase.json    → Hosting configuration
-.github/workflows → Sheet-to-JSON sync automation
+- /assets          → Images, brand logos, icon sets
+- /js              → Main app logic (home, modal, config, admin)
+- data.json        → Generated car database (auto from Sheets)
+- firebase.json    → Hosting configuration
+- .github/workflows → Sheet-to-JSON sync automation
 
 🔄 Data Workflow
 
@@ -48,5 +48,6 @@ If you’d like to discuss diecasts, the project, or improvements: https://www.p
 
 Padmaj P Kumar
 🔗 Live Site: https://www.diecast.padmajp.com/
+
 
 
