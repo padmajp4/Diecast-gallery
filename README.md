@@ -44,11 +44,8 @@ This makes it easy to scale the collection without touching code.
 You can drag-and-drop screenshots here later.
 
 📬 Feedback / Contact
-If you’d like to discuss diecasts, the project, or improvements:
+If you’d like to discuss diecasts, the project, or improvements: https://www.padmajp.com/
 
 Padmaj P Kumar
 🔗 Live Site: https://www.diecast.padmajp.com/
 
-Just say "add badges".
-
-If you want a more minimal, fun, or technical README style, I can rewrite it too.
