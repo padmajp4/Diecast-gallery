@@ -1941,7 +1941,16 @@
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi-CW-004.webp",
     "featured": false,
     "Gifter": "",
-    "featuredImage": ""
+    "featuredImage": "",
+    "ownership": {
+      "quantity": 4,
+      "copies": [
+        {},
+        {},
+        {},
+        {}
+      ]
+    }
   },
   {
     "name": "Jaguar XJC V12 Coupe/Coupe",
@@ -2573,23 +2582,6 @@
     "featuredImage": ""
   },
   {
-    "name": "Polstar Trx",
-    "serial": "CW-152",
-    "brand": "Hot Wheels",
-    "series": "Normal",
-    "Manufacture": "Fantasy",
-    "year": 2022,
-    "VehicleType": "Car",
-    "Colour": "Silver",
-    "isTreasurehunt": false,
-    "Scale": "1/64",
-    "description": "A detailed miniature designed to replicate the look and feel of the real car in compact scale form.",
-    "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi-CW-004.webp",
-    "featured": false,
-    "Gifter": "",
-    "featuredImage": ""
-  },
-  {
     "name": "Honda Motocompo",
     "serial": "CW-153",
     "brand": "Hot Wheels",
@@ -2598,23 +2590,6 @@
     "year": 2022,
     "VehicleType": "Motorcycle",
     "Colour": "Yellow",
-    "isTreasurehunt": false,
-    "Scale": "1/64",
-    "description": "A detailed miniature designed to replicate the look and feel of the real car in compact scale form.",
-    "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi-CW-004.webp",
-    "featured": false,
-    "Gifter": "",
-    "featuredImage": ""
-  },
-  {
-    "name": "Polstar Trx",
-    "serial": "CW-154",
-    "brand": "Hot Wheels",
-    "series": "Normal",
-    "Manufacture": "Fantasy",
-    "year": 2022,
-    "VehicleType": "Car",
-    "Colour": "Silver",
     "isTreasurehunt": false,
     "Scale": "1/64",
     "description": "A detailed miniature designed to replicate the look and feel of the real car in compact scale form.",
