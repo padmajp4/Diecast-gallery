@@ -1984,79 +1984,21 @@
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi-CW-004.webp",
     "featured": false,
     "Gifter": "",
-    "featuredImage": ""
-  },
-  {
-    "name": "Loopster",
-    "serial": "CW-117",
-    "brand": "Hot Wheels",
-    "series": "Normal",
-    "Manufacture": "Fantasy",
-    "year": 2022,
-    "VehicleType": "Car",
-    "Colour": "Blue green",
-    "isTreasurehunt": false,
-    "Scale": "1/64",
-    "description": "A detailed miniature designed to replicate the look and feel of the real car in compact scale form.",
-    "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi-CW-004.webp",
-    "featured": false,
-    "Gifter": "",
-    "featuredImage": ""
-  },
-  {
-    "name": "Loopster",
-    "serial": "CW-118",
-    "brand": "Hot Wheels",
-    "series": "Normal",
-    "Manufacture": "Fantasy",
-    "year": 2022,
-    "VehicleType": "Car",
-    "Colour": "Blue green",
-    "isTreasurehunt": false,
-    "Scale": "1/64",
-    "description": "A detailed miniature designed to replicate the look and feel of the real car in compact scale form.",
-    "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi-CW-004.webp",
-    "featured": false,
-    "Gifter": "",
-    "featuredImage": ""
-  },
-  {
-    "name": "Loopster",
-    "serial": "CW-119",
-    "brand": "Hot Wheels",
-    "series": "Normal",
-    "Manufacture": "Fantasy",
-    "year": 2022,
-    "VehicleType": "Car",
-    "Colour": "Blue green",
-    "isTreasurehunt": false,
-    "Scale": "1/64",
-    "description": "A detailed miniature designed to replicate the look and feel of the real car in compact scale form.",
-    "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi-CW-004.webp",
-    "featured": false,
-    "Gifter": "",
-    "featuredImage": ""
-  },
-  {
-    "name": "Loopster",
-    "serial": "CW-120",
-    "brand": "Hot Wheels",
-    "series": "Normal",
-    "Manufacture": "Fantasy",
-    "year": 2022,
-    "VehicleType": "Car",
-    "Colour": "Blue green",
-    "isTreasurehunt": false,
-    "Scale": "1/64",
-    "description": "A detailed miniature designed to replicate the look and feel of the real car in compact scale form.",
-    "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi-CW-004.webp",
-    "featured": false,
-    "Gifter": "",
-    "featuredImage": ""
+    "featuredImage": "",
+    "ownership": {
+      "quantity": 5,
+      "copies": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    }
   },
   {
     "name": "Nissan Skyline GT-R (R32)",
-    "serial": "CW-121",
+    "serial": "CW-117",
     "brand": "Hot Wheels",
     "series": "Normal",
     "Manufacture": "Nissan",
@@ -2073,7 +2015,7 @@
   },
   {
     "name": "73 Pontiac Firebrid",
-    "serial": "CW-122",
+    "serial": "CW-118",
     "brand": "Hot Wheels",
     "series": "Normal",
     "Manufacture": "Pontiac",
@@ -2090,7 +2032,7 @@
   },
   {
     "name": "Ford RS200",
-    "serial": "CW-123",
+    "serial": "CW-119",
     "brand": "Hot Wheels",
     "series": "Normal",
     "Manufacture": "Ford",
@@ -2107,7 +2049,7 @@
   },
   {
     "name": "McMurtry Speirling",
-    "serial": "CW-124",
+    "serial": "CW-120",
     "brand": "Hot Wheels",
     "series": "Normal",
     "Manufacture": "McMurtry",
@@ -2124,7 +2066,7 @@
   },
   {
     "name": "Czinger 21C",
-    "serial": "CW-125",
+    "serial": "CW-121",
     "brand": "Hot Wheels",
     "series": "Normal",
     "Manufacture": "Czinger",
@@ -2141,7 +2083,7 @@
   },
   {
     "name": "Pagani Utopia",
-    "serial": "CW-126",
+    "serial": "CW-122",
     "brand": "Hot Wheels",
     "series": "Normal",
     "Manufacture": "Pagani",
@@ -2158,7 +2100,7 @@
   },
   {
     "name": "96 Dodge viper gts",
-    "serial": "CW-127",
+    "serial": "CW-123",
     "brand": "Hot Wheels",
     "series": "Normal",
     "Manufacture": "Dodge",
@@ -2175,7 +2117,7 @@
   },
   {
     "name": "Datsun 240Z",
-    "serial": "CW-128",
+    "serial": "CW-124",
     "brand": "Hot Wheels",
     "series": "Normal",
     "Manufacture": "Datsun",
@@ -2192,7 +2134,7 @@
   },
   {
     "name": "Cadillac Project GTP hypercar/hypervoiture",
-    "serial": "CW-129",
+    "serial": "CW-125",
     "brand": "Hot Wheels",
     "series": "Normal",
     "Manufacture": "Cadillac",
@@ -2209,7 +2151,7 @@
   },
   {
     "name": "TV series/serie tele batmobile",
-    "serial": "CW-130",
+    "serial": "CW-126",
     "brand": "Hot Wheels",
     "series": "Normal",
     "Manufacture": "Fantasy",
@@ -2226,7 +2168,7 @@
   },
   {
     "name": "Porsche 911 carrera clip",
-    "serial": "CW-131",
+    "serial": "CW-127",
     "brand": "Hot Wheels",
     "series": "Normal",
     "Manufacture": "Porsche",
@@ -2243,7 +2185,7 @@
   },
   {
     "name": "89 Mercedes-Benz 560 Sec AMG",
-    "serial": "CW-132",
+    "serial": "CW-128",
     "brand": "Hot Wheels",
     "series": "Normal",
     "Manufacture": "Benz",
@@ -2260,7 +2202,7 @@
   },
   {
     "name": "Porshe Panamera",
-    "serial": "CW-133",
+    "serial": "CW-129",
     "brand": "Hot Wheels",
     "series": "Silver Series",
     "Manufacture": "Porsche",
@@ -2277,7 +2219,7 @@
   },
   {
     "name": "17 Acura NSX",
-    "serial": "CW-134",
+    "serial": "CW-130",
     "brand": "Hot Wheels",
     "series": "Silver Series",
     "Manufacture": "Honda",
@@ -2294,7 +2236,7 @@
   },
   {
     "name": "McLaren P1",
-    "serial": "CW-135",
+    "serial": "CW-131",
     "brand": "Hot Wheels",
     "series": "Silver Series",
     "Manufacture": "McLaren P1",
@@ -2311,7 +2253,7 @@
   },
   {
     "name": "Lamborghini Sian FKP 37",
-    "serial": "CW-136",
+    "serial": "CW-132",
     "brand": "Hot Wheels",
     "series": "Silver Series",
     "Manufacture": "Lamborghini",
@@ -2328,7 +2270,7 @@
   },
   {
     "name": "Mo-Stash",
-    "serial": "CW-137",
+    "serial": "CW-133",
     "brand": "Hot Wheels",
     "series": "Normal",
     "Manufacture": "Fantasy",
@@ -2345,7 +2287,7 @@
   },
   {
     "name": "2020 Koenigsegg Jesko",
-    "serial": "CW-138",
+    "serial": "CW-134",
     "brand": "Hot Wheels",
     "series": "Normal",
     "Manufacture": "Koenigsegg",
@@ -2362,7 +2304,7 @@
   },
   {
     "name": "Silverado EV RST",
-    "serial": "CW-139",
+    "serial": "CW-135",
     "brand": "Hot Wheels",
     "series": "Normal",
     "Manufacture": "Chevrolet",
@@ -2379,7 +2321,7 @@
   },
   {
     "name": "King Kuda",
-    "serial": "CW-140",
+    "serial": "CW-136",
     "brand": "Hot Wheels",
     "series": "Normal",
     "Manufacture": "Fantasy",
@@ -2396,7 +2338,7 @@
   },
   {
     "name": "1966 Triumph Tiger 100",
-    "serial": "CW-141",
+    "serial": "CW-137",
     "brand": "Hot Wheels",
     "series": "Normal",
     "Manufacture": "Triumph",
@@ -2413,7 +2355,7 @@
   },
   {
     "name": "Aston Martin Vulcan",
-    "serial": "CW-142",
+    "serial": "CW-138",
     "brand": "Hot Wheels",
     "series": "HW Motor Show",
     "Manufacture": "Austin",
@@ -2430,7 +2372,7 @@
   },
   {
     "name": "Ferrari SF90 Stradale",
-    "serial": "CW-143",
+    "serial": "CW-139",
     "brand": "Hot Wheels",
     "series": "HW Motor Show",
     "Manufacture": "Ferrari",
@@ -2447,7 +2389,7 @@
   },
   {
     "name": "17 Ford GT",
-    "serial": "CW-144",
+    "serial": "CW-140",
     "brand": "Hot Wheels",
     "series": "HW Motor Show",
     "Manufacture": "Ford",
@@ -2464,7 +2406,7 @@
   },
   {
     "name": "Lamborghini Huracan LP 610-4",
-    "serial": "CW-145",
+    "serial": "CW-141",
     "brand": "Hot Wheels",
     "series": "HW Motor Show",
     "Manufacture": "Lamborghini",
@@ -2481,7 +2423,7 @@
   },
   {
     "name": "Lotus Evija",
-    "serial": "CW-146",
+    "serial": "CW-142",
     "brand": "Hot Wheels",
     "series": "HW Motor Show",
     "Manufacture": "Lotus",
@@ -2498,7 +2440,7 @@
   },
   {
     "name": "70 Dodge Charger RT",
-    "serial": "CW-147",
+    "serial": "CW-143",
     "brand": "Hot Wheels",
     "series": "Fast & Furious",
     "Manufacture": "Dodge",
@@ -2515,7 +2457,7 @@
   },
   {
     "name": "1966 Chevrolet Impala",
-    "serial": "CW-148",
+    "serial": "CW-144",
     "brand": "Hot Wheels",
     "series": "Fast & Furious",
     "Manufacture": "Chevrolet",
@@ -2532,7 +2474,7 @@
   },
   {
     "name": "Porsche 911 GT3 RS",
-    "serial": "CW-149",
+    "serial": "CW-145",
     "brand": "Hot Wheels",
     "series": "Fast & Furious",
     "Manufacture": "Porsche",
@@ -2549,7 +2491,7 @@
   },
   {
     "name": "68 Plymouth Barracuda Formula S",
-    "serial": "CW-150",
+    "serial": "CW-146",
     "brand": "Hot Wheels",
     "series": "Fast & Furious",
     "Manufacture": "Plymouth",
@@ -2566,7 +2508,7 @@
   },
   {
     "name": "Nisaan Silvia (S13)",
-    "serial": "CW-151",
+    "serial": "CW-147",
     "brand": "Hot Wheels",
     "series": "Fast & Furious",
     "Manufacture": "Nissan",
@@ -2583,7 +2525,7 @@
   },
   {
     "name": "Honda Motocompo",
-    "serial": "CW-152",
+    "serial": "CW-148",
     "brand": "Hot Wheels",
     "series": "Normal",
     "Manufacture": "Honda",
@@ -2600,7 +2542,7 @@
   },
   {
     "name": "Honda CB750 Cafe",
-    "serial": "CW-153",
+    "serial": "CW-149",
     "brand": "Hot Wheels",
     "series": "Normal",
     "Manufacture": "Honda",
