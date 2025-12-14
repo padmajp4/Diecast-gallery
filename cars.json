@@ -238,7 +238,7 @@
     "featuredImage": ""
   },
   {
-    "name": "90 Honda Civi EF",
+    "name": "90 Honda Civic EF",
     "serial": "CW-015",
     "brand": "Hot Wheels",
     "series": "Normal",
@@ -258,7 +258,7 @@
     "variantLabel": "Hot Wheels-Honda-Civic EF-Blue-1990"
   },
   {
-    "name": "90 Honda Civi EF",
+    "name": "90 Honda Civic EF",
     "serial": "CW-016",
     "brand": "Hot Wheels",
     "series": "Normal",
@@ -2634,23 +2634,6 @@
     "Colour": "blue",
     "isTreasurehunt": false,
     "Scale": "1/65",
-    "description": "A detailed miniature designed to replicate the look and feel of the real car in compact scale form.",
-    "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi-CW-004.webp",
-    "featured": false,
-    "Gifter": "",
-    "featuredImage": ""
-  },
-  {
-    "name": "90 Honda Civi EF",
-    "serial": "CW-016",
-    "brand": "Hot Wheels",
-    "series": "Normal",
-    "Manufacture": "Honda",
-    "year": 2022,
-    "VehicleType": "Car",
-    "Colour": "Green",
-    "isTreasurehunt": false,
-    "Scale": "1/64",
     "description": "A detailed miniature designed to replicate the look and feel of the real car in compact scale form.",
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi-CW-004.webp",
     "featured": false,
