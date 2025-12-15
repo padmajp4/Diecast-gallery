@@ -1482,7 +1482,14 @@
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi-CW-004.webp",
     "featured": false,
     "Gifter": "",
-    "featuredImage": ""
+    "featuredImage": "",
+    "ownership": {
+      "quantity": 2,
+      "copies": [
+        {},
+        {}
+      ]
+    }
   },
   {
     "name": "BMW 635 CSi",
@@ -2583,6 +2590,57 @@
     "year": 2025,
     "VehicleType": "Car",
     "Colour": "Black",
+    "isTreasurehunt": false,
+    "Scale": "1/64",
+    "description": "A detailed miniature designed to replicate the look and feel of the real car in compact scale form.",
+    "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi-CW-004.webp",
+    "featured": false,
+    "Gifter": "",
+    "featuredImage": ""
+  },
+  {
+    "name": "67 Shelby GT500",
+    "serial": "CW-152",
+    "brand": "Hot Wheels",
+    "series": "Normal",
+    "Manufacture": "Ford",
+    "year": 2025,
+    "VehicleType": "Car",
+    "Colour": "Black",
+    "isTreasurehunt": false,
+    "Scale": "1/64",
+    "description": "A detailed miniature designed to replicate the look and feel of the real car in compact scale form.",
+    "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi-CW-004.webp",
+    "featured": false,
+    "Gifter": "",
+    "featuredImage": ""
+  },
+  {
+    "name": "Chevy Blazer 4x4",
+    "serial": "CW-153",
+    "brand": "Hot Wheels",
+    "series": "Normal",
+    "Manufacture": "Chevrolet",
+    "year": 2025,
+    "VehicleType": "Car",
+    "Colour": "Orange",
+    "isTreasurehunt": false,
+    "Scale": "1/64",
+    "description": "A detailed miniature designed to replicate the look and feel of the real car in compact scale form.",
+    "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi-CW-004.webp",
+    "featured": false,
+    "Gifter": "",
+    "featuredImage": ""
+  },
+  {
+    "name": "Bmw i8 Roadster",
+    "serial": "CW-154",
+    "brand": "Hot Wheels",
+    "series": "Silver Series",
+    "Manufacture": "BMW",
+    "year": 2025,
+    "VehicleType": "Car",
+    "Colour": "White",
     "isTreasurehunt": false,
     "Scale": "1/64",
     "description": "A detailed miniature designed to replicate the look and feel of the real car in compact scale form.",
