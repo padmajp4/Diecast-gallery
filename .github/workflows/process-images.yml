@@ -13,10 +13,10 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Install ImageMagick + WebP
+      - name: Install ImageMagick + WebP + HEIC
         run: |
           sudo apt-get update
-          sudo apt-get install -y imagemagick webp
+          sudo apt-get install -y imagemagick webp libheif1 libheif-examples
 
       - name: Process images and generate JSON
         shell: bash
@@ -32,7 +32,7 @@ jobs:
             file=$(basename "$img")
 
             # Skip non-images
-            if [[ ! "$file" =~ \.(jpg|jpeg|png|webp|JPG|JPEG|PNG|WEBP)$ ]]; then
+            if [[ ! "$file" =~ \.(jpg|jpeg|png|webp|heic|JPG|JPEG|PNG|WEBP|HEIC)$ ]]; then
               echo "Skipping non-image: $file"
               continue
             fi
@@ -47,27 +47,32 @@ jobs:
             fi
 
             ###########################################
-            # FEATURED IMAGE — COPY AS-IS (NO CONVERT)
+            # FEATURED IMAGE — WEBP ONLY (NO CONVERT)
             ###########################################
             if [[ "$file" == *"-featured"* ]]; then
-              echo "Copying FEATURED image without converting: $file"
-              cp "$img" "images/cars/$file"
-              outFile="$file"
-              type="featured"
+              if [[ "$file" =~ \.webp$|\.WEBP$ ]]; then
+                echo "Copying FEATURED WebP image: $file"
+                cp "$img" "images/cars/$file"
+                outFile="$file"
+                type="featured"
+              else
+                echo "❌ FEATURED image must be WebP. Skipping: $file"
+                continue
+              fi
 
             ###########################################
-            # NORMAL IMAGE LOGIC
+            # NORMAL IMAGE LOGIC (HEIC SUPPORTED)
             ###########################################
             else
               type="normal"
 
               # Already WebP → keep as-is
-              if [[ "$file" =~ \.webp$ ]]; then
+              if [[ "$file" =~ \.webp$|\.WEBP$ ]]; then
                 echo "Copying WEBP without convert: $file"
                 cp "$img" "images/cars/$file"
                 outFile="$file"
 
-              # JPG/PNG → convert to WebP
+              # JPG / PNG / HEIC → convert to WebP
               else
                 outFile="${file%.*}.webp"
                 echo "Converting to WebP: $file → $outFile"
