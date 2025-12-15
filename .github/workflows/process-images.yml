@@ -47,16 +47,16 @@ jobs:
             fi
 
             ###########################################
-            # FEATURED IMAGE — WEBP ONLY (NO CONVERT)
+            # FEATURED IMAGE — PNG ONLY (NO CONVERT)
             ###########################################
             if [[ "$file" == *"-featured"* ]]; then
-              if [[ "$file" =~ \.webp$|\.WEBP$ ]]; then
-                echo "Copying FEATURED WebP image: $file"
+              if [[ "$file" =~ \.png$|\.PNG$ ]]; then
+                echo "Copying FEATURED PNG image: $file"
                 cp "$img" "images/cars/$file"
                 outFile="$file"
                 type="featured"
               else
-                echo "❌ FEATURED image must be WebP. Skipping: $file"
+                echo "❌ FEATURED image must be PNG. Skipping: $file"
                 continue
               fi
 
