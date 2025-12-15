@@ -1714,10 +1714,10 @@
     "isTreasurehunt": false,
     "Scale": "1/64",
     "description": "The DeLorean DMC-12 is the iconic stainless-steel sports car made famous by Back to the Future. Originally produced by DeLorean Motor Company in the early 1980s, it became legendary after Doc Brown transformed it into a time machine in the film trilogy.",
-    "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/BacktoFutureTimeMachine-1955-CW-100-2.webp",
+    "images": "",
     "featured": true,
     "Gifter": "",
-    "featuredImage": ""
+    "featuredImage": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/dmc-CW-100-featured.png"
   },
   {
     "name": "1963 Ford ThunderBird",
