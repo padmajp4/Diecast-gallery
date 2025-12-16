@@ -16,12 +16,7 @@ jobs:
       - name: Install ImageMagick + WebP + HEIC
         run: |
           sudo apt-get update
-          sudo apt-get install -y \
-            imagemagick \
-            webp \
-            libheif1 \
-            libheif-examples \
-            icc-profiles
+          sudo apt-get install -y imagemagick webp libheif1 libheif-examples
 
       - name: Process images and generate JSON
         shell: bash
@@ -77,16 +72,14 @@ jobs:
                 cp "$img" "images/cars/$file"
                 outFile="$file"
 
-              # JPG / PNG / HEIC → convert to WebP (SATURATION FIX ONLY)
+              # JPG / PNG / HEIC → convert to WebP (SATURATION BOOST ONLY)
               else
                 outFile="${file%.*}.webp"
-                echo "Converting to WebP (saturation boosted): $file → $outFile"
+                echo "Converting to WebP (saturation +15%): $file → $outFile"
 
                 convert "$img" \
-                  -colorspace RGB \
-                  -profile /usr/share/color/icc/sRGB.icc \
-                  -modulate 100,115,100 \
                   -resize 2000x2000\> \
+                  -modulate 100,115,100 \
                   -strip \
                   -quality 85 \
                   "images/cars/$outFile"
