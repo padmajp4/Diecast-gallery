@@ -265,7 +265,7 @@
     "Manufacture": "Honda",
     "year": 2022,
     "VehicleType": "Car",
-    "Colour": "green",
+    "Colour": "Green",
     "isTreasurehunt": false,
     "Scale": "1/64",
     "description": "A detailed miniature designed to replicate the look and feel of the real car in compact scale form.",
@@ -853,41 +853,15 @@
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi-CW-004.webp",
     "featured": false,
     "Gifter": "",
-    "featuredImage": ""
-  },
-  {
-    "name": "73 HONDA CIVIC CUSTOM/PERSONNALISE",
-    "serial": "CW-051",
-    "brand": "Hot Wheels",
-    "series": "Normal",
-    "Manufacture": "Honda",
-    "year": 2022,
-    "VehicleType": "Car",
-    "Colour": "Red",
-    "isTreasurehunt": false,
-    "Scale": "1/64",
-    "description": "A detailed miniature designed to replicate the look and feel of the real car in compact scale form.",
-    "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi-CW-004.webp",
-    "featured": false,
-    "Gifter": "",
-    "featuredImage": ""
-  },
-  {
-    "name": "73 HONDA CIVIC CUSTOM/PERSONNALISE",
-    "serial": "CW-052",
-    "brand": "Hot Wheels",
-    "series": "Normal",
-    "Manufacture": "Honda",
-    "year": 2022,
-    "VehicleType": "Car",
-    "Colour": "Red",
-    "isTreasurehunt": false,
-    "Scale": "1/64",
-    "description": "A detailed miniature designed to replicate the look and feel of the real car in compact scale form.",
-    "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi-CW-004.webp",
-    "featured": false,
-    "Gifter": "",
-    "featuredImage": ""
+    "featuredImage": "",
+    "ownership": {
+      "quantity": 3,
+      "copies": [
+        {},
+        {},
+        {}
+      ]
+    }
   },
   {
     "name": "73 HONDA CIVIC CUSTOM",
@@ -1159,7 +1133,10 @@
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi-CW-004.webp",
     "featured": false,
     "Gifter": "",
-    "featuredImage": ""
+    "featuredImage": "",
+    "model": "ALFA ROMEO GIULIA",
+    "variantId": "hw-alfa-romeio-giulia-red",
+    "variantLabel": "Hot Wheels-ALFA ROMEO GIULIA-Red"
   },
   {
     "name": "ALFA ROMEO GIULIA TI SUPER",
@@ -1176,7 +1153,10 @@
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/ALFA-ROMEO-GIULIA-TI-SUPER-CW-069-2.webp",
     "featured": false,
     "Gifter": "",
-    "featuredImage": ""
+    "featuredImage": "",
+    "model": "ALFA ROMEO GIULIA",
+    "variantId": "hw-alfa-romeio-giulia-white",
+    "variantLabel": "Hot Wheels-ALFA ROMEO GIULIA-White"
   },
   {
     "name": "Rally Speciale",
@@ -1628,23 +1608,6 @@
     "featuredImage": ""
   },
   {
-    "name": "Pontiac Aztek Custom",
-    "serial": "CW-096",
-    "brand": "Hot Wheels",
-    "series": "Normal",
-    "Manufacture": "Pontiac",
-    "year": 2022,
-    "VehicleType": "Car",
-    "Colour": "White",
-    "isTreasurehunt": false,
-    "Scale": "1/64",
-    "description": "A detailed miniature designed to replicate the look and feel of the real car in compact scale form.",
-    "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi-CW-004.webp",
-    "featured": false,
-    "Gifter": "",
-    "featuredImage": ""
-  },
-  {
     "name": "Mazda 787B",
     "serial": "CW-097",
     "brand": "Hot Wheels",
@@ -1853,7 +1816,14 @@
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Pontiac-Aztek-Custom-CW-108-2.webp",
     "featured": false,
     "Gifter": "",
-    "featuredImage": ""
+    "featuredImage": "",
+    "ownership": {
+      "quantity": 2,
+      "copies": [
+        {},
+        {}
+      ]
+    }
   },
   {
     "name": "VW T3 Custom",
@@ -1904,41 +1874,15 @@
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi-CW-004.webp",
     "featured": false,
     "Gifter": "",
-    "featuredImage": ""
-  },
-  {
-    "name": "Skidster",
-    "serial": "CW-112",
-    "brand": "Matchbox",
-    "series": "Normal",
-    "Manufacture": "Fantasy",
-    "year": 2022,
-    "VehicleType": "Car",
-    "Colour": "White",
-    "isTreasurehunt": false,
-    "Scale": "1/64",
-    "description": "A detailed miniature designed to replicate the look and feel of the real car in compact scale form.",
-    "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi-CW-004.webp",
-    "featured": false,
-    "Gifter": "",
-    "featuredImage": ""
-  },
-  {
-    "name": "Skidster",
-    "serial": "CW-113",
-    "brand": "Matchbox",
-    "series": "Normal",
-    "Manufacture": "Fantasy",
-    "year": 2022,
-    "VehicleType": "Car",
-    "Colour": "White",
-    "isTreasurehunt": false,
-    "Scale": "1/64",
-    "description": "A detailed miniature designed to replicate the look and feel of the real car in compact scale form.",
-    "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi-CW-004.webp",
-    "featured": false,
-    "Gifter": "",
-    "featuredImage": ""
+    "featuredImage": "",
+    "ownership": {
+      "quantity": 3,
+      "copies": [
+        {},
+        {},
+        {}
+      ]
+    }
   },
   {
     "name": "Polestar Trx",
