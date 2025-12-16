@@ -1309,7 +1309,10 @@
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi-CW-004.webp",
     "featured": false,
     "Gifter": "",
-    "featuredImage": ""
+    "featuredImage": "",
+    "model": "VW T3 Custom",
+    "variantId": "hw-vw-t3-custom-Blue",
+    "variantLabel": "Hot Wheels - VW T3 Custom-Blue"
   },
   {
     "name": "67 Shelby GT500",
@@ -1840,7 +1843,10 @@
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi-CW-004.webp",
     "featured": false,
     "Gifter": "",
-    "featuredImage": ""
+    "featuredImage": "",
+    "model": "VW T3 Custom",
+    "variantId": "hw-vw-t3-custom-Yellow",
+    "variantLabel": "Hot Wheels - VW T3 Custom-Yellow"
   },
   {
     "name": "84 Ford Mustang SVO",
