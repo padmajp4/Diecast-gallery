@@ -16,7 +16,12 @@ jobs:
       - name: Install ImageMagick + WebP + HEIC
         run: |
           sudo apt-get update
-          sudo apt-get install -y imagemagick webp libheif1 libheif-examples
+          sudo apt-get install -y \
+            imagemagick \
+            webp \
+            libheif1 \
+            libheif-examples \
+            icc-profiles
 
       - name: Process images and generate JSON
         shell: bash
