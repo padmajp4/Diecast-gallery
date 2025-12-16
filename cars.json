@@ -1656,7 +1656,7 @@
     "isTreasurehunt": false,
     "Scale": "1/64",
     "description": "A detailed miniature designed to replicate the look and feel of the real car in compact scale form.",
-    "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Pagani-Utopia-CW-099-2.webp",
+    "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Pagani-Utopia-CW-099-1.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Pagani-Utopia-CW-099-2.webp",
     "featured": false,
     "Gifter": "",
     "featuredImage": "",
@@ -1680,10 +1680,10 @@
     "isTreasurehunt": false,
     "Scale": "1/64",
     "description": "The DeLorean DMC-12 is the iconic stainless-steel sports car made famous by Back to the Future. Originally produced by DeLorean Motor Company in the early 1980s, it became legendary after Doc Brown transformed it into a time machine in the film trilogy.",
-    "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/dmc-CW-100-2.webp",
+    "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/BacktoFutureTimeMachine-1955-CW-100-2.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/dmc-CW-100-2.webp",
     "featured": true,
     "Gifter": "",
-    "featuredImage": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/dmc-CW-100-featured.png"
+    "featuredImage": ""
   },
   {
     "name": "1963 Ford ThunderBird",
@@ -2584,7 +2584,7 @@
     "isTreasurehunt": false,
     "Scale": "1/64",
     "description": "A detailed miniature designed to replicate the look and feel of the real car in compact scale form.",
-    "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/BMWi8-CW-153-1.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/BMWi8-CW-153-2.webp",
+    "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/BMWi8-CW-153-2.webp",
     "featured": false,
     "Gifter": "",
     "featuredImage": ""
