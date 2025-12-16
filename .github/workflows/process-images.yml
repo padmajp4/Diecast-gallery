@@ -77,15 +77,15 @@ jobs:
                 cp "$img" "images/cars/$file"
                 outFile="$file"
 
-              # JPG / PNG / HEIC → convert to WebP (COLOR + BRIGHTNESS SAFE)
+              # JPG / PNG / HEIC → convert to WebP (VISUALLY CORRECT)
               else
                 outFile="${file%.*}.webp"
-                echo "Converting to WebP (color & brightness safe): $file → $outFile"
+                echo "Converting to WebP (auto-level tone fix): $file → $outFile"
 
                 convert "$img" \
                   -colorspace RGB \
                   -profile /usr/share/color/icc/sRGB.icc \
-                  -gamma 1.05 \
+                  -auto-level \
                   -resize 2000x2000\> \
                   -strip \
                   -quality 85 \
