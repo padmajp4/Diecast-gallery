@@ -72,11 +72,18 @@ jobs:
                 cp "$img" "images/cars/$file"
                 outFile="$file"
 
-              # JPG / PNG / HEIC → convert to WebP
+              # JPG / PNG / HEIC → convert to WebP (COLOR SAFE)
               else
                 outFile="${file%.*}.webp"
-                echo "Converting to WebP: $file → $outFile"
-                convert "$img" -resize 2000x2000\> -strip -quality 85 "images/cars/$outFile"
+                echo "Converting to WebP (color-safe): $file → $outFile"
+
+                convert "$img" \
+                  -colorspace RGB \
+                  -profile /usr/share/color/icc/sRGB.icc \
+                  -resize 2000x2000\> \
+                  -strip \
+                  -quality 85 \
+                  "images/cars/$outFile"
               fi
             fi
 
