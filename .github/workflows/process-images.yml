@@ -77,15 +77,15 @@ jobs:
                 cp "$img" "images/cars/$file"
                 outFile="$file"
 
-              # JPG / PNG / HEIC → convert to WebP (VISUALLY CORRECT)
+              # JPG / PNG / HEIC → convert to WebP (SATURATION FIX ONLY)
               else
                 outFile="${file%.*}.webp"
-                echo "Converting to WebP (auto-level tone fix): $file → $outFile"
+                echo "Converting to WebP (saturation boosted): $file → $outFile"
 
                 convert "$img" \
                   -colorspace RGB \
                   -profile /usr/share/color/icc/sRGB.icc \
-                  -auto-level \
+                  -modulate 100,115,100 \
                   -resize 2000x2000\> \
                   -strip \
                   -quality 85 \
