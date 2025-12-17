@@ -14,7 +14,10 @@
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/audi-CW-001-1.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/audi-CW-001-2.webp",
     "featured": false,
     "Gifter": "",
-    "featuredImage": ""
+    "featuredImage": "",
+    "model": "Audi 90 Quattro",
+    "variantId": "hw-audi-quatrohry-black",
+    "variantLabel": "Hot wheels-Audi-quatrohry-Black"
   },
   {
     "name": "87 Audi Quattro",
@@ -31,7 +34,10 @@
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi-CW-004.webp",
     "featured": false,
     "Gifter": "",
-    "featuredImage": ""
+    "featuredImage": "",
+    "model": "Audi 90 Quattro",
+    "variantId": "hw-audi-quatro-blue",
+    "variantLabel": "Hot wheels-Audi-quatro-Blue"
   },
   {
     "name": "Audi 90 Quattro",
@@ -48,7 +54,10 @@
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi-CW-004.webp",
     "featured": false,
     "Gifter": "",
-    "featuredImage": ""
+    "featuredImage": "",
+    "model": "Audi 90 Quattro",
+    "variantId": "hw-audi-quatro-silver",
+    "variantLabel": "Hot wheels-Audi-quatro-Silver"
   },
   {
     "name": "Audi 90 Quattro",
@@ -58,14 +67,24 @@
     "Manufacture": "Audi",
     "year": 2022,
     "VehicleType": "Car",
-    "Colour": "Black",
+    "Colour": "Black-Graphics",
     "isTreasurehunt": false,
     "Scale": "1/64",
     "description": "A detailed miniature designed to replicate the look and feel of the real car in compact scale form.",
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi-CW-004.webp",
     "featured": false,
     "Gifter": "",
-    "featuredImage": ""
+    "featuredImage": "",
+    "model": "Audi 90 Quattro",
+    "variantId": "hw-audi-quatro-black",
+    "variantLabel": "Hot wheels-Audi-quatro-Black",
+    "ownership": {
+      "quantity": 2,
+      "copies": [
+        {},
+        {}
+      ]
+    }
   },
   {
     "name": "64 Chevelle",
@@ -530,7 +549,14 @@
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi-CW-004.webp",
     "featured": false,
     "Gifter": "",
-    "featuredImage": ""
+    "featuredImage": "",
+    "ownership": {
+      "quantity": 2,
+      "copies": [
+        {},
+        {}
+      ]
+    }
   },
   {
     "name": "MUSCLE AND BLOWN",
@@ -649,7 +675,10 @@
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi-CW-004.webp",
     "featured": false,
     "Gifter": "",
-    "featuredImage": ""
+    "featuredImage": "",
+    "model": "67 Austin mini van",
+    "variantId": "hw-67-Austin-mini-van-blue",
+    "variantLabel": "Hot wheels-Austin-Mini-Blue"
   },
   {
     "name": "67 Austin mini van/FOURGONNETTE",
@@ -666,7 +695,10 @@
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi-CW-004.webp",
     "featured": false,
     "Gifter": "",
-    "featuredImage": ""
+    "featuredImage": "",
+    "model": "67 Austin mini van",
+    "variantId": "hw-67-Austin-mini-van-orange",
+    "variantLabel": "Hot wheels-Austin-Mini-Orange"
   },
   {
     "name": "Porsche Cayenne Turbo",
@@ -980,7 +1012,10 @@
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi-CW-004.webp",
     "featured": false,
     "Gifter": "",
-    "featuredImage": ""
+    "featuredImage": "",
+    "model": "90 Acura NSX",
+    "variantId": "hw-90-Acura-NSX-Yellow",
+    "variantLabel": "Hot wheels-90 Acura NSX-Yellow"
   },
   {
     "name": "90 Acura NSX",
@@ -997,7 +1032,10 @@
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi-CW-004.webp",
     "featured": false,
     "Gifter": "",
-    "featuredImage": ""
+    "featuredImage": "",
+    "model": "90 Acura NSX",
+    "variantId": "hw-90-Acura-NSX-White",
+    "variantLabel": "Hot wheels-90 Acura NSX-White"
   },
   {
     "name": "Dodge Van",
@@ -2519,7 +2557,10 @@
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/84AudiSportQuattro-CW-149-2.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/84AudiSportQuattro-CW-149-3.webp",
     "featured": false,
     "Gifter": "",
-    "featuredImage": ""
+    "featuredImage": "",
+    "model": "Audi 90 Quattro",
+    "variantId": "hw-audi-quatro-White",
+    "variantLabel": "Hot wheels-Audi-quatro-White"
   },
   {
     "name": "Formula E GEN3",
