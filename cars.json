@@ -272,7 +272,7 @@
     "featured": false,
     "Gifter": "",
     "featuredImage": "",
-    "model": "Honda Civic EF",
+    "model": "Honda Civic",
     "variantId": "hw-honda-civic-ef-blue-1990",
     "variantLabel": "Hot Wheels-Honda-Civic EF-Blue-1990"
   },
@@ -292,7 +292,7 @@
     "featured": false,
     "Gifter": "",
     "featuredImage": "",
-    "model": "Honda Civic EF",
+    "model": "Honda Civic",
     "variantId": "hw-honda-civic-ef-green-1990",
     "variantLabel": "Hot Wheels-Honda Civic EF-Green-1990"
   },
@@ -345,7 +345,10 @@
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi-CW-004.webp",
     "featured": false,
     "Gifter": "",
-    "featuredImage": ""
+    "featuredImage": "",
+    "model": "Honda Civic",
+    "variantId": "hw-honda-civic-typer-red",
+    "variantLabel": "Hot Wheels-Honda Civic Type R-Red"
   },
   {
     "name": "BMW M3 Wagon / REMORQUE",
@@ -886,6 +889,9 @@
     "featured": false,
     "Gifter": "",
     "featuredImage": "",
+    "model": "Honda Civic",
+    "variantId": "hw-honda-civic-custom-pers",
+    "variantLabel": "Hot Wheels-Honda Civic Pers-Red",
     "ownership": {
       "quantity": 3,
       "copies": [
@@ -910,7 +916,10 @@
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi-CW-004.webp",
     "featured": false,
     "Gifter": "",
-    "featuredImage": ""
+    "featuredImage": "",
+    "model": "Honda Civic",
+    "variantId": "hw-honda-civic-custom-green",
+    "variantLabel": "Hot Wheels-Honda Civic Custom-Green"
   },
   {
     "name": "HONDA CIVIC CUSTOM",
@@ -920,14 +929,17 @@
     "Manufacture": "Honda",
     "year": 2022,
     "VehicleType": "Car",
-    "Colour": "Red",
+    "Colour": "Red-Graphics",
     "isTreasurehunt": false,
     "Scale": "1/64",
     "description": "A detailed miniature designed to replicate the look and feel of the real car in compact scale form.",
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/HONDACIVICCUSTOM-CW-054-2.webp",
     "featured": false,
     "Gifter": "",
-    "featuredImage": ""
+    "featuredImage": "",
+    "model": "Honda Civic",
+    "variantId": "hw-honda-civic-custom-red",
+    "variantLabel": "Hot Wheels-Honda Civic Custom-Red-Graphics"
   },
   {
     "name": "Corvette 1990 ZR-1",
