@@ -1,12 +1,107 @@
 [
   {
+    "serial": "CW-002",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/87AudiQuattro-CW-002-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/87AudiQuattro-CW-002-2.webp"],
+    "featuredImage": null
+  },
+  {
     "serial": "CW-003",
     "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi90Quattro-CW-003-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi90Quattro-CW-003-2.webp"],
     "featuredImage": null
   },
   {
+    "serial": "CW-004",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi90Quattro-CW-004-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi90Quattro-CW-004-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-009",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Porsche911CarreraRS 2.7-CW-009-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Porsche911CarreraRS 2.7-CW-009-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-010",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/DMCDelorean-CW-010-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/DMCDelorean-CW-010-2.webp"],
+    "featuredImage": null
+  },
+  {
     "serial": "CW-011",
     "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/NissanSkylineGT-RBCNR33-CW-011-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/NissanSkylineGT-RBCNR33-CW-011-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-012",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Porsche934-CW-012-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Porsche934-CW-012-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-013",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Datsun260Z-CW-013-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Datsun260Z-CW-013-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-014",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/92JeepWrangler Sahara-CW-014-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/92JeepWrangler Sahara-CW-014-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-015",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/90HondaCivic EF-CW-015-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/90HondaCivic EF-CW-015-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-016",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/90HondaCivicEF-CW-016-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/90HondaCivicEF-CW-016-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-017",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/BMWM3Wagon-CW-017-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/BMWM3Wagon-CW-017-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-018",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/92BMWM3-CW-018-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/92BMWM3-CW-018-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-019",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/2018HondaCivicType R-CW-019-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/2018HondaCivicType R-CW-019-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-020",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/BMWM3WagonREMORQUE-CW-020-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/BMWM3WagonREMORQUE-CW-020-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-021",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/BMW2002-CW-021-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/BMW2002-CW-021-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-022",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/BMW2002-CW-022-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/BMW2002-CW-022-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-023",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/67FORDMUSTANGCOUPE-CW-023-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/67FORDMUSTANGCOUPE-CW-023-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-024",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/LANDROVERDEFENDER 90-CW-024-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/LANDROVERDEFENDER 90-CW-024-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-025",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/92FORDMUSTANG-CW-025-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/92FORDMUSTANG-CW-025-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-027",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/BulletProof-CW-027-1.webp"],
     "featuredImage": null
   },
   {
@@ -16,7 +111,7 @@
   },
   {
     "serial": "CW-029",
-    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/69MercuryCougar-Eliminator-CW-029-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/69MercuryCougar-Eliminator-CW-029-2.webp"],
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/69 MercuryCougarEliminator-CW-029-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/69 MercuryCougarEliminator-CW-029-2.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/69MercuryCougar-Eliminator-CW-029-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/69MercuryCougar-Eliminator-CW-029-2.webp"],
     "featuredImage": null
   },
   {
@@ -42,6 +137,11 @@
   {
     "serial": "CW-034",
     "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/MERCEDES-BENZ500E-CW-034-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/MERCEDES-BENZ500E-CW-034-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-035",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/58Chevyimpala-CW-035-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/58Chevyimpala-CW-035-2.webp"],
     "featuredImage": null
   },
   {
@@ -75,8 +175,18 @@
     "featuredImage": null
   },
   {
+    "serial": "CW-044",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/91MazdaMX-5MIATA-CW-044-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/91MazdaMX-5MIATA-CW-044-2.webp"],
+    "featuredImage": null
+  },
+  {
     "serial": "CW-045",
     "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/70PlymouthSuperBird-CW-045-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/70PlymouthSuperBird-CW-045-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-046",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/LamborghiniHURACANSTERRATO-CW-046-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/LamborghiniHURACANSTERRATO-CW-046-2.webp"],
     "featuredImage": null
   },
   {
@@ -100,6 +210,16 @@
     "featuredImage": null
   },
   {
+    "serial": "CW-051",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/91GMCSYCLONE-CW-051-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/91GMCSYCLONE-CW-051-12.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-052",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/75LANDROVERDEFENDERDOUBLE -CW-052-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/75LANDROVERDEFENDERDOUBLE -CW-052-2.webp"],
+    "featuredImage": null
+  },
+  {
     "serial": "CW-053",
     "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/73HONDAcIVICCUSTOM-CW-053-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/73HONDAcIVICCUSTOM-CW-053-2.webp"],
     "featuredImage": null
@@ -110,6 +230,21 @@
     "featuredImage": null
   },
   {
+    "serial": "CW-055",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Corvette1990 ZR-1-CW-055-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Corvette1990 ZR-1-CW-055-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-056",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/DMCDelorean-CW-056-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/DMCDelorean-CW-056-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-057",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/DMCDelorean-CW-057-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/DMCDelorean-CW-057-2.webp"],
+    "featuredImage": null
+  },
+  {
     "serial": "CW-058",
     "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/10-Camaro-SS-CW-058-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/10-Camaro-SS-CW-058-2.webp"],
     "featuredImage": null
@@ -117,6 +252,36 @@
   {
     "serial": "CW-059",
     "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/90-acura NSX-CW-059-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/90-acura NSX-CW-059-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-060",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/90AcuraNSX-CW-060-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/90AcuraNSX-CW-060-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-061",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/DodgeVan-CW-061-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/DodgeVan-CW-061-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-062",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/CombatJetSkystrike-CW-062-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/CombatJetSkystrike-CW-062-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-063",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/AIRBUSA380-800-CW-063-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/AIRBUSA380-800-CW-063-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-065",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/2001BMWM5-CW-065-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/2001BMWM5-CW-065-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-066",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Maseratishamal-CW-066-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Maseratishamal-CW-066-2.webp"],
     "featuredImage": null
   },
   {
@@ -145,8 +310,23 @@
     "featuredImage": null
   },
   {
+    "serial": "CW-072",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/HW-4-TRAC-CW-072-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/HW-4-TRAC-CW-072-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-073",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/72stingrayConvertible-CW-073-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/72stingrayConvertible-CW-073-2.webp"],
+    "featuredImage": null
+  },
+  {
     "serial": "CW-074",
     "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/TrackDwagon-CW-074-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/TrackDwagon-CW-074-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-075",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/FordPerformanceSupervan4-CW-075-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/FordPerformanceSupervan4-CW-075-2.webp"],
     "featuredImage": null
   },
   {
@@ -167,6 +347,16 @@
   {
     "serial": "CW-087",
     "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/1983porsche928S-CW-087-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/1983porsche928S-CW-087-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-088",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/BMW635CSi-CW-088-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/BMW635CSi-CW-088-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-089",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/FordMustangGTD-CW-089-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/FordMustangGTD-CW-089-2.webp"],
     "featuredImage": null
   },
   {
@@ -200,6 +390,11 @@
     "featuredImage": null
   },
   {
+    "serial": "CW-096",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/LANDROVERDEFENDER 90-CW-096-2.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/LANDROVERDEFENDER90-CW-096-1.webp"],
+    "featuredImage": null
+  },
+  {
     "serial": "CW-097",
     "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Mazda-787B-CW-097-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Mazda-787B-CW-097-2.webp"],
     "featuredImage": null
@@ -216,8 +411,8 @@
   },
   {
     "serial": "CW-100",
-    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/BacktoFutureTimeMachine-1955-CW-100-2.webp"],
-    "featuredImage": null
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/BacktoFutureTimeMachine-1955-CW-100-1.webp"],
+    "featuredImage": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/BacktoFutureTimeMachine-1955-CW-100-featured.png"
   },
   {
     "serial": "CW-101",
@@ -236,7 +431,17 @@
   },
   {
     "serial": "CW-104",
-    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/2022Ford F-150Lightning-CW-104-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/2022Ford F-150Lightning-CW-104-2.webp"],
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/2022Ford F-150Lightning-CW-104-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/2022Ford F-150Lightning-CW-104-2.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/2022FordF-150Lightning-CW-104-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/2022FordF-150Lightning-CW-104-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-105",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/1940DogeV-Series Truck-CW-105-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/1940DogeV-SeriesTruck-CW-105-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-106",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/LotusCortina-CW-106-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/LotusCortina-CW-106-2.webp"],
     "featuredImage": null
   },
   {
@@ -246,7 +451,7 @@
   },
   {
     "serial": "CW-108",
-    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Pontiac-Aztek-Custom-CW-108-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Pontiac-Aztek-Custom-CW-108-2.webp"],
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Pontiac Aztek Custom-CW-108-2.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Pontiac-Aztek-Custom-CW-108-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Pontiac-Aztek-Custom-CW-108-2.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/PontiacAztek Custom-CW-108-1.webp"],
     "featuredImage": null
   },
   {
@@ -267,6 +472,11 @@
   {
     "serial": "CW-115",
     "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/JaguarXJCV12Coupe:Coupe-CW-115-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/JaguarXJCV12Coupe:Coupe-CW-115-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-116",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Loopster-CW-116-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Loopster-CW-116-2.webp"],
     "featuredImage": null
   },
   {
@@ -426,7 +636,7 @@
   },
   {
     "serial": "CW-149",
-    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/84AudiSportQuattro-CW-149-2.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/84AudiSportQuattro-CW-149-3.webp"],
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/84AudiSportQuattro-CW-149-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/84AudiSportQuattro-CW-149-2.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/84AudiSportQuattro-CW-149-3.webp"],
     "featuredImage": null
   },
   {
