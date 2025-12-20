@@ -2030,7 +2030,7 @@
     "Scale": "1/24",
     "description": "",
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Ferrari-12-Cilindri-CW-112-1.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Ferrari-12-Cilindri-CW-112-2.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Ferrari-12-Cilindri-CW-112-3.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Ferrari-12-Cilindri-CW-112-4.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Ferrari-12-Cilindri-CW-112-5.webp",
-    "featured": false,
+    "featured": true,
     "Gifter": "Abeel",
     "featuredImage": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Ferrari-12-Cilindri-CW-112-featured.png"
   },
