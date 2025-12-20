@@ -2029,10 +2029,10 @@
     "isTreasurehunt": false,
     "Scale": "1/24",
     "description": "",
-    "images": "",
+    "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Ferrari-12-Cilindri-CW-112-1.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Ferrari-12-Cilindri-CW-112-2.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Ferrari-12-Cilindri-CW-112-3.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Ferrari-12-Cilindri-CW-112-4.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Ferrari-12-Cilindri-CW-112-5.webp",
     "featured": false,
     "Gifter": "Abeel",
-    "featuredImage": ""
+    "featuredImage": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Ferrari-12-Cilindri-CW-112-featured.png"
   },
   {
     "name": "Datsun 240Z",
@@ -2764,7 +2764,7 @@
     "isTreasurehunt": false,
     "Scale": "1/64",
     "description": "",
-    "images": "",
+    "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/LamborghiniUrus-CW-154-2.HEIC.webp",
     "featured": false,
     "Gifter": "Abeel",
     "featuredImage": ""
@@ -2781,7 +2781,7 @@
     "isTreasurehunt": false,
     "Scale": "1/64",
     "description": "",
-    "images": "",
+    "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Alfa-ROMEO-GIULIA-CW-155-2.webp",
     "featured": false,
     "Gifter": "Abeel",
     "featuredImage": ""
@@ -2798,7 +2798,7 @@
     "isTreasurehunt": false,
     "Scale": "1/64",
     "description": "",
-    "images": "",
+    "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Lamborghini-Countach-LP400-CW-156-2.webp",
     "featured": false,
     "Gifter": "Abeel",
     "featuredImage": ""
@@ -2815,7 +2815,7 @@
     "isTreasurehunt": false,
     "Scale": "1/64",
     "description": "",
-    "images": "",
+    "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Alfa-Romeo-4C-Spider-CW-157-2.webp",
     "featured": false,
     "Gifter": "Abeel",
     "featuredImage": ""
@@ -2832,7 +2832,7 @@
     "isTreasurehunt": false,
     "Scale": "1/64",
     "description": "",
-    "images": "",
+    "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Lamborghini-HuracanAvio-CW-158.webp",
     "featured": false,
     "Gifter": "Abeel",
     "featuredImage": ""
