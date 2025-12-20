@@ -2035,6 +2035,23 @@
     "featuredImage": ""
   },
   {
+    "name": "Datsun 240Z",
+    "serial": "CW-113",
+    "brand": "Hot Wheels",
+    "series": "Normal",
+    "Manufacture": "Datsun",
+    "year": 2022,
+    "VehicleType": "Car",
+    "Colour": "Pink",
+    "isTreasurehunt": false,
+    "Scale": "1/64",
+    "description": "A detailed miniature designed to replicate the look and feel of the real car in compact scale form.",
+    "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Datsun-240Z-CW-123-1.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Datsun-240Z-CW-123-2.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Datsun-240Z-CW-123-3.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Datsun-240Z-CW-123-4.webp",
+    "featured": false,
+    "Gifter": "Abeel",
+    "featuredImage": ""
+  },
+  {
     "name": "Polestar Trx",
     "serial": "CW-114",
     "brand": "Hot Wheels",
@@ -2220,14 +2237,7 @@
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Datsun-240Z-CW-123-1.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Datsun-240Z-CW-123-2.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Datsun-240Z-CW-123-3.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Datsun-240Z-CW-123-4.webp",
     "featured": false,
     "Gifter": "",
-    "featuredImage": "",
-    "ownership": {
-      "quantity": 2,
-      "copies": [
-        {},
-        {}
-      ]
-    }
+    "featuredImage": ""
   },
   {
     "name": "Cadillac Project GTP hypercar/hypervoiture",
@@ -2740,6 +2750,23 @@
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/BMWi8-CW-153-1.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/BMWi8-CW-153-2.webp",
     "featured": false,
     "Gifter": "",
+    "featuredImage": ""
+  },
+  {
+    "name": "Datsun 240Z",
+    "serial": "CW-154",
+    "brand": "Hot Wheels",
+    "series": "Normal",
+    "Manufacture": "Datsun",
+    "year": 2022,
+    "VehicleType": "Car",
+    "Colour": "Pink",
+    "isTreasurehunt": false,
+    "Scale": "1/64",
+    "description": "A detailed miniature designed to replicate the look and feel of the real car in compact scale form.",
+    "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Datsun-240Z-CW-123-1.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Datsun-240Z-CW-123-2.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Datsun-240Z-CW-123-3.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Datsun-240Z-CW-123-4.webp",
+    "featured": false,
+    "Gifter": "Abeel",
     "featuredImage": ""
   }
 ]
