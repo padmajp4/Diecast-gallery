@@ -2018,6 +2018,23 @@
     }
   },
   {
+    "name": "Ferrari 12 Cilindri",
+    "serial": "CW-112",
+    "brand": "Bburago",
+    "series": "Normal",
+    "Manufacture": "Ferrari",
+    "year": 2025,
+    "VehicleType": "Car",
+    "Colour": "Red",
+    "isTreasurehunt": false,
+    "Scale": "1/24",
+    "description": "",
+    "images": "",
+    "featured": false,
+    "Gifter": "Abeel",
+    "featuredImage": ""
+  },
+  {
     "name": "Polestar Trx",
     "serial": "CW-114",
     "brand": "Hot Wheels",
@@ -2203,7 +2220,14 @@
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Datsun-240Z-CW-123-1.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Datsun-240Z-CW-123-2.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Datsun-240Z-CW-123-3.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Datsun-240Z-CW-123-4.webp",
     "featured": false,
     "Gifter": "",
-    "featuredImage": ""
+    "featuredImage": "",
+    "ownership": {
+      "quantity": 2,
+      "copies": [
+        {},
+        {}
+      ]
+    }
   },
   {
     "name": "Cadillac Project GTP hypercar/hypervoiture",
