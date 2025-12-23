@@ -2068,8 +2068,10 @@
     "Gifter": "",
     "featuredImage": "",
     "ownership": {
-      "quantity": 3,
+      "quantity": 5,
       "copies": [
+        {},
+        {},
         {},
         {},
         {}
