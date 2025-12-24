@@ -314,7 +314,10 @@
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/BMWM3Wagon-CW-017-1.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/BMWM3Wagon-CW-017-2.webp",
     "featured": false,
     "Gifter": "",
-    "featuredImage": ""
+    "featuredImage": "",
+    "model": "BMW M3",
+    "variantId": "hw-bmw-m3-red",
+    "variantLabel": "Hot Wheel-BMW M3-Red"
   },
   {
     "name": "92 BMW M3",
@@ -331,7 +334,10 @@
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/92BMWM3-CW-018-1.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/92BMWM3-CW-018-2.webp",
     "featured": false,
     "Gifter": "",
-    "featuredImage": ""
+    "featuredImage": "",
+    "model": "BMW M3",
+    "variantId": "hw-bmw-m3-yellow",
+    "variantLabel": "Hot Wheel-BMW M3-Yellow"
   },
   {
     "name": "2018 Honda Civic Type R",
@@ -368,7 +374,10 @@
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/BMWM3WagonREMORQUE-CW-020-1.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/BMWM3WagonREMORQUE-CW-020-2.webp",
     "featured": false,
     "Gifter": "Zoe",
-    "featuredImage": ""
+    "featuredImage": "",
+    "model": "BMW M3",
+    "variantId": "hw-bmw-m3-green",
+    "variantLabel": "Hot Wheel-BMW M3-Green"
   },
   {
     "name": "BMW 2002",
