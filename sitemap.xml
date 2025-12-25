@@ -32,11 +32,6 @@
   </url>
 
   <url>
-    <loc>https://www.diecast.padmajp.com/?car=Audi%2090%20Quattro</loc>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
     <loc>https://www.diecast.padmajp.com/?car=64%20Chevelle</loc>
     <priority>0.6</priority>
   </url>
@@ -92,11 +87,6 @@
   </url>
 
   <url>
-    <loc>https://www.diecast.padmajp.com/?car=90%20Honda%20Civic%20EF</loc>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
     <loc>https://www.diecast.padmajp.com/?car=BMW%20M3%20Wagon</loc>
     <priority>0.6</priority>
   </url>
@@ -113,11 +103,6 @@
 
   <url>
     <loc>https://www.diecast.padmajp.com/?car=BMW%20M3%20Wagon%20%2F%20REMORQUE</loc>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://www.diecast.padmajp.com/?car=BMW%202002</loc>
     <priority>0.6</priority>
   </url>
 
@@ -207,17 +192,7 @@
   </url>
 
   <url>
-    <loc>https://www.diecast.padmajp.com/?car=67%20Austin%20mini%20van%2FFOURGONNETTE</loc>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
     <loc>https://www.diecast.padmajp.com/?car=Porsche%20Cayenne%20Turbo</loc>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://www.diecast.padmajp.com/?car=83%20Chevy%20Silverado</loc>
     <priority>0.6</priority>
   </url>
 
@@ -292,22 +267,7 @@
   </url>
 
   <url>
-    <loc>https://www.diecast.padmajp.com/?car=DMC%20Delorean</loc>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://www.diecast.padmajp.com/?car=DMC%20Delorean</loc>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
     <loc>https://www.diecast.padmajp.com/?car=10%20Camaro%20SS</loc>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://www.diecast.padmajp.com/?car=90%20Acura%20NSX</loc>
     <priority>0.6</priority>
   </url>
 
@@ -348,11 +308,6 @@
 
   <url>
     <loc>https://www.diecast.padmajp.com/?car=Mazda%20RX-3</loc>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://www.diecast.padmajp.com/?car=ALFA%20ROMEO%20GIULIA%20TI%20SUPER</loc>
     <priority>0.6</priority>
   </url>
 
@@ -492,11 +447,6 @@
   </url>
 
   <url>
-    <loc>https://www.diecast.padmajp.com/?car=LAND%20ROVER%20DEFENDER%2090</loc>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
     <loc>https://www.diecast.padmajp.com/?car=Mazda%20787B</loc>
     <priority>0.6</priority>
   </url>
@@ -553,11 +503,6 @@
 
   <url>
     <loc>https://www.diecast.padmajp.com/?car=Pontiac%20Aztek%20Custom</loc>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://www.diecast.padmajp.com/?car=VW%20T3%20Custom</loc>
     <priority>0.6</priority>
   </url>
 
@@ -623,11 +568,6 @@
 
   <url>
     <loc>https://www.diecast.padmajp.com/?car=96%20Dodge%20viper%20gts</loc>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://www.diecast.padmajp.com/?car=Datsun%20240Z</loc>
     <priority>0.6</priority>
   </url>
 
@@ -763,11 +703,6 @@
 
   <url>
     <loc>https://www.diecast.padmajp.com/?car=Formula%20E%20GEN3</loc>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://www.diecast.padmajp.com/?car=67%20Shelby%20GT500</loc>
     <priority>0.6</priority>
   </url>
 
