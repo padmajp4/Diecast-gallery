@@ -132,6 +132,16 @@ jobs:
           echo "Cleaning new images…"
           rm -f images/new/*
 
+      - name: Generate sitemap.xml
+        run: node tools/generate-sitemap.js
+
+      - name: Commit sitemap
+        run: |
+          git add sitemap.xml
+          git commit -m "Auto update sitemap.xml" || echo "No sitemap change"
+
+        
+
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
