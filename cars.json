@@ -753,7 +753,10 @@
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/83ChevySilverado-CW-041-1.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/83ChevySilverado-CW-041-2.webp",
     "featured": false,
     "Gifter": "",
-    "featuredImage": ""
+    "featuredImage": "",
+    "model": "83 Chevy Silverado",
+    "variantId": "hw-83-chevy-silverado-blue",
+    "variantLabel": "hw-83-chevy-silverado-Blue"
   },
   {
     "name": "83 Chevy Silverado",
@@ -770,7 +773,10 @@
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi-CW-004.webp",
     "featured": false,
     "Gifter": "",
-    "featuredImage": "https://www.padmajp.com/images/portfolio-7.webp"
+    "featuredImage": "",
+    "model": "83 Chevy Silverado",
+    "variantId": "hw-83-chevy-silverado-black",
+    "variantLabel": "hw-83-chevy-silverado-Black"
   },
   {
     "name": "71 Lamborghini MIURA SV",
