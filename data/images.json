@@ -1,32 +1,17 @@
 [
   {
-    "serial": "CW-112",
-    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Ferrari-12-Cilindri-CW-112-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Ferrari-12-Cilindri-CW-112-2.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Ferrari-12-Cilindri-CW-112-3.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Ferrari-12-Cilindri-CW-112-4.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Ferrari-12-Cilindri-CW-112-5.webp"],
-    "featuredImage": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Ferrari-12-Cilindri-CW-112-featured.png"
-  },
-  {
-    "serial": "CW-154",
-    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/LamborghiniUrus-CW-154-2.HEIC.webp"],
+    "serial": "CW-001",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/87AudiQuattroHRY55_CW-001-1.webp"],
     "featuredImage": null
   },
   {
-    "serial": "CW-155",
-    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Alfa-ROMEO-GIULIA-CW-155-2.webp"],
+    "serial": "CW-007",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/FordMustangGT-CW-007-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/FordMustangGT-CW-007-1.webp"],
     "featuredImage": null
   },
   {
-    "serial": "CW-156",
-    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Lamborghini-Countach-LP400-CW-156-2.webp"],
-    "featuredImage": null
-  },
-  {
-    "serial": "CW-157",
-    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Alfa-Romeo-4C-Spider-CW-157-2.webp"],
-    "featuredImage": null
-  },
-  {
-    "serial": "CW-158",
-    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Lamborghini-HuracanAvio-CW-158.webp"],
+    "serial": "CW-042",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/83_Chevy Silverado_CW-042-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/83_Chevy Silverado_CW-042-2.webp"],
     "featuredImage": null
   }
 ]
