@@ -206,7 +206,10 @@
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/NissanSkylineGT-RBCNR33-CW-011-1.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/NissanSkylineGT-RBCNR33-CW-011-2.webp",
     "featured": false,
     "Gifter": "",
-    "featuredImage": ""
+    "featuredImage": "",
+    "model": "Nissan Skyline GTR",
+    "variantId": "Nissan-Skyline-GTR-black",
+    "variantLabel": "Nissan Skyline GTR Black"
   },
   {
     "name": "Porsche 934",
@@ -1535,7 +1538,10 @@
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi-CW-004.webp",
     "featured": false,
     "Gifter": "",
-    "featuredImage": ""
+    "featuredImage": "",
+    "model": "Nissan Skyline GTR",
+    "variantId": "Nissan-Skyline-GTR-white",
+    "variantLabel": "Nissan Skyline GTR White"
   },
   {
     "name": "BMW M2",
@@ -2138,9 +2144,9 @@
     }
   },
   {
-    "name": "Nissan Skyline GT-R (R32)",
+    "name": "Nissan Skyline GT-R (R32) VeilSide Comba",
     "serial": "CW-117",
-    "brand": "Hot Wheels",
+    "brand": "MiniGT",
     "series": "Normal",
     "Manufacture": "Nissan",
     "year": 2022,
@@ -2152,7 +2158,10 @@
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Audi-CW-004.webp",
     "featured": false,
     "Gifter": "",
-    "featuredImage": ""
+    "featuredImage": "",
+    "model": "Nissan Skyline GTR",
+    "variantId": "Nissan-Skyline-GTR-red",
+    "variantLabel": "Nissan Skyline GTR Red"
   },
   {
     "name": "73 Pontiac Firebrid",
