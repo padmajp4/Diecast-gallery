@@ -741,4 +741,9 @@
     <priority>0.6</priority>
   </url>
 
+  <url>
+    <loc>https://www.diecast.padmajp.com/?car=austin%20mini%20cooper%20s</loc>
+    <priority>0.6</priority>
+  </url>
+
 </urlset>
