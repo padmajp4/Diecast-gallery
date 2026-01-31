@@ -1,32 +1,32 @@
 [
   {
-    "serial": "CW-005",
-    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/64Chevelle-CW-005-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/64Chevelle-CW-005-2.webp"],
+    "serial": "CW-161",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/NissanZ-CW-161-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/NissanZ-CW-161-2.webp"],
     "featuredImage": null
   },
   {
-    "serial": "CW-006",
-    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/SpeedBump-CW-006-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/SpeedBump-CW-006-2.webp"],
+    "serial": "CW-162",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/HondaS2000-CW-162-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/HondaS2000-CW-162-2.webp"],
     "featuredImage": null
   },
   {
-    "serial": "CW-111",
-    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Skidster-CW-111-1.webp"],
+    "serial": "CW-163",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/RenaultCLIO16S-CW-163-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/RenaultCLIO16S-CW-163-2.webp"],
     "featuredImage": null
   },
   {
-    "serial": "CW-117",
-    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/NissanSkylineGT-RR32-CW-117-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/NissanSkylineGT-RR32-CW-117-2.webp"],
+    "serial": "CW-164",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/AlpineA110 S-CW-164-2.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/AlpineA110S-CW-164-1.webp"],
     "featuredImage": null
   },
   {
-    "serial": "CW-159",
-    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/AustinMiniCooperS-CW-159-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/AustinMiniCooperS-CW-159-2.webp"],
+    "serial": "CW-165",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/PorschePanamera-CW-165-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/PorschePanamera-CW-165-2.webp"],
     "featuredImage": null
   },
   {
-    "serial": "CW-160",
-    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/2018-Honda-CivicTypeR-CW-160-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/2018-Honda-CivicTypeR-CW-160-2.webp"],
+    "serial": "CW-166",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/VolvoExcavator-CW-166-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/VolvoExcavator-CW-166-2.webp"],
     "featuredImage": null
   }
 ]
