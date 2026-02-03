@@ -831,4 +831,9 @@
     <priority>0.6</priority>
   </url>
 
+  <url>
+    <loc>https://www.diecast.padmajp.com/?car=mercedes-amg%20g63</loc>
+    <priority>0.6</priority>
+  </url>
+
 </urlset>
