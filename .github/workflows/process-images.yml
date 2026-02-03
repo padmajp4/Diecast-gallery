@@ -5,6 +5,9 @@ on:
     paths:
       - "images/new/**"
 
+permissions:
+  contents: write
+
 jobs:
   process-images:
     runs-on: ubuntu-latest
@@ -12,6 +15,8 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Install ImageMagick + WebP + HEIC
         run: |
@@ -131,11 +136,16 @@ jobs:
 
           echo "Cleaning new images…"
           rm -f images/new/*
-      
+
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git checkout main
+          git pull --rebase origin main
+
           git add images/cars data/images.json
           git commit -m "Processed images" || echo "No changes"
-          git push
+
+          git push origin main
