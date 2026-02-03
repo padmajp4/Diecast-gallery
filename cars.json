@@ -3197,7 +3197,7 @@
   },
   {
     "name": "MERCEDES-AMG G63",
-    "serial": "CW-179",
+    "serial": "CW-178",
     "brand": "Majorette",
     "series": "Normal",
     "Manufacture": "Nissan",
@@ -3207,7 +3207,7 @@
     "isTreasurehunt": false,
     "Scale": "1/64",
     "description": "A luxury SUV infused with handcrafted V8 power. Boxy design meets modern performance. An icon, unapologetically bold.",
-    "images": "",
+    "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/MERCEDES-CW-178-1.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/MERCEDES-CW-178-2.webp",
     "featured": false,
     "Gifter": "",
     "featuredImage": "",
