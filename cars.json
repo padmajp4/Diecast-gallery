@@ -3194,5 +3194,25 @@
     "model": "Nissan Skyline GTR",
     "variantId": "Nissan-Skyline-GTR-violet",
     "variantLabel": "Nissan Skyline GTR Violet"
+  },
+  {
+    "name": "MERCEDES-AMG G63",
+    "serial": "CW-178",
+    "brand": "Majorette",
+    "series": "Normal",
+    "Manufacture": "Nissan",
+    "year": 2026,
+    "VehicleType": "Car",
+    "Colour": "Grey",
+    "isTreasurehunt": false,
+    "Scale": "1/64",
+    "description": "A luxury SUV infused with handcrafted V8 power. Boxy design meets modern performance. An icon, unapologetically bold.",
+    "images": "",
+    "featured": false,
+    "Gifter": "",
+    "featuredImage": "",
+    "model": "Nissan Skyline GTR",
+    "variantId": "Nissan-Skyline-GTR-violet",
+    "variantLabel": "Nissan Skyline GTR Violet"
   }
 ]
