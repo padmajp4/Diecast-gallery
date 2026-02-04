@@ -1,7 +1,42 @@
 [
   {
-    "serial": "CW-178",
-    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/MERCEDES-CW-178-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/MERCEDES-CW-178-2.webp"],
+    "serial": "CW-179",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/MERCEDES-BENZ3006.8 AMG-CW-179-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/MERCEDES-BENZ3006.8 AMG-CW-179-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-180",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/KoolKombiCW-180-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/KoolKombiCW-180-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-181",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/NissanSilvia(S15)-CW-181-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/NissanSilvia(S15)-CW-181-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-182",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/NissanSilvia(S13)-CW-182-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/NissanSilvia(S13)-CW-182-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-183",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/1970MonteCarlo-CW-183-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/1970MonteCarlo-CW-183-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-184",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/NISSAN350ZCUSTOM:PERSONNALIS-CW-184-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/NISSAN350ZCUSTOM:PERSONNALIS-CW-184-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-185",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/2020Ram1500Rebel-CW-185-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/2020Ram1500Rebel-CW-185-2.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/2020Ram1500Rebel-CW-185-3.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-186",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/20ToyotaTacoma-CW-186-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/20ToyotaTacoma-CW-186-2.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/20ToyotaTacoma-CW-186-3.webp"],
     "featuredImage": null
   }
 ]
