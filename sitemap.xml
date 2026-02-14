@@ -876,4 +876,9 @@
     <priority>0.6</priority>
   </url>
 
+  <url>
+    <loc>https://www.diecast.padmajp.com/?car=1970%20road%20runner</loc>
+    <priority>0.6</priority>
+  </url>
+
 </urlset>
