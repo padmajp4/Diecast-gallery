@@ -2071,7 +2071,9 @@
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Datsun-240Z-CW-123-1.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Datsun-240Z-CW-123-2.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Datsun-240Z-CW-123-3.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Datsun-240Z-CW-123-4.webp",
     "featured": false,
     "Gifter": "Abeel",
-    "featuredImage": ""
+    "featuredImage": "",
+    "model": "Datsun 240Z",
+    "variantId": "Datsun_240Z_Pink"
   },
   {
     "name": "Polestar Trx",
@@ -2264,7 +2266,9 @@
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Datsun-240Z-CW-123-1.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Datsun-240Z-CW-123-2.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Datsun-240Z-CW-123-3.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Datsun-240Z-CW-123-4.webp",
     "featured": false,
     "Gifter": "",
-    "featuredImage": ""
+    "featuredImage": "",
+    "model": "Datsun 240Z",
+    "variantId": "Datsun_240Z_Pink"
   },
   {
     "name": "Cadillac Project GTP hypercar/hypervoiture",
@@ -3348,6 +3352,43 @@
     "Scale": "1/64",
     "description": "A dependable midsize truck with proven off-road capability. Tough, practical, and adventure-ready. Built to last anywhere.",
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/20ToyotaTacoma-CW-186-1.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/20ToyotaTacoma-CW-186-2.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/20ToyotaTacoma-CW-186-3.webp",
+    "featured": false,
+    "Gifter": "",
+    "featuredImage": ""
+  },
+  {
+    "name": "Datsun 240Z",
+    "serial": "CW-187",
+    "brand": "Hot Wheels",
+    "series": "Normal",
+    "Manufacture": "Datsun",
+    "year": 2026,
+    "VehicleType": "Car",
+    "Colour": "Blue",
+    "isTreasurehunt": false,
+    "Scale": "1/64",
+    "description": "",
+    "images": "",
+    "featured": false,
+    "Gifter": "",
+    "featuredImage": "",
+    "model": "Datsun 240Z",
+    "variantId": "Datsun_240Z_Blue",
+    "variantLabel": "Datsun 240Z Blue"
+  },
+  {
+    "name": "1970 Road Runner ",
+    "serial": "CW-188",
+    "brand": "Hot Wheels",
+    "series": "Silver Series",
+    "Manufacture": "Plymouth",
+    "year": 2026,
+    "VehicleType": "Car",
+    "Colour": "Grey",
+    "isTreasurehunt": false,
+    "Scale": "1/64",
+    "description": "",
+    "images": "",
     "featured": false,
     "Gifter": "",
     "featuredImage": ""
