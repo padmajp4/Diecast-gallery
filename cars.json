@@ -2267,10 +2267,7 @@
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Datsun-240Z-CW-123-1.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Datsun-240Z-CW-123-2.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Datsun-240Z-CW-123-3.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Datsun-240Z-CW-123-4.webp",
     "featured": false,
     "Gifter": "",
-    "featuredImage": "",
-    "model": "Datsun 240Z",
-    "variantId": "Datsun_240Z_Pink",
-    "variantLabel": "Datsun 240Z Pink"
+    "featuredImage": ""
   },
   {
     "name": "Cadillac Project GTP hypercar/hypervoiture",
