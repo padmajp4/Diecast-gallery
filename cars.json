@@ -2073,7 +2073,8 @@
     "Gifter": "Abeel",
     "featuredImage": "",
     "model": "Datsun 240Z",
-    "variantId": "Datsun_240Z_Pink"
+    "variantId": "Datsun_240Z_Pink",
+    "variantLabel": "Datsun 240Z Pink"
   },
   {
     "name": "Polestar Trx",
@@ -2268,7 +2269,8 @@
     "Gifter": "",
     "featuredImage": "",
     "model": "Datsun 240Z",
-    "variantId": "Datsun_240Z_Pink"
+    "variantId": "Datsun_240Z_Pink",
+    "variantLabel": "Datsun 240Z Pink"
   },
   {
     "name": "Cadillac Project GTP hypercar/hypervoiture",
