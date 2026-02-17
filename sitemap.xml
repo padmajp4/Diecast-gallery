@@ -881,4 +881,49 @@
     <priority>0.6</priority>
   </url>
 
+  <url>
+    <loc>https://www.diecast.padmajp.com/?car=the%20dark%20knight%20batmobile</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.diecast.padmajp.com/?car=el%20segundo%20coupe</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.diecast.padmajp.com/?car=hako%20type%20d</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.diecast.padmajp.com/?car=la%20liebre</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.diecast.padmajp.com/?car=polestar%20trs</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.diecast.padmajp.com/?car=76%20chevy%20chevette</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.diecast.padmajp.com/?car=69%20chevelle</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.diecast.padmajp.com/?car=mercedes%20benz%20unimog%201300l</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.diecast.padmajp.com/?car=69%20copo%20camaro</loc>
+    <priority>0.6</priority>
+  </url>
+
 </urlset>
