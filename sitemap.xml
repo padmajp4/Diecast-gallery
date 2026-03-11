@@ -926,4 +926,29 @@
     <priority>0.6</priority>
   </url>
 
+  <url>
+    <loc>https://www.diecast.padmajp.com/?car=ferrari%2012cilindri</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.diecast.padmajp.com/?car=lucid%20air</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.diecast.padmajp.com/?car=vw%20id.%20buzz%20bomb</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.diecast.padmajp.com/?car=lancer%20evolution%209</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.diecast.padmajp.com/?car=countach</loc>
+    <priority>0.6</priority>
+  </url>
+
 </urlset>
