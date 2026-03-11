@@ -1,57 +1,27 @@
 [
   {
-    "serial": "CW-189",
-    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Datsun240Z-CW-189-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Datsun240Z-CW-189-2.webp"],
+    "serial": "CW-200",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/BUZZBOMB-CW-200-2.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Ferrari12Cilindri_CW-200-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Ferrari12Cilindri_CW-200-2.webp"],
     "featuredImage": null
   },
   {
-    "serial": "CW-190",
-    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/LotusCortina-CW-190-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/LotusCortina-CW-190-2.webp"],
+    "serial": "CW-201",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/LucidAir-CW-201-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/LucidAir-CW-201-2.webp"],
     "featuredImage": null
   },
   {
-    "serial": "CW-191",
-    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/TheDarkKnightBatmobile-CW-191-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/TheDarkKnightBatmobile-CW-191-2.webp"],
+    "serial": "CW-202",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/BUZZBOMB-CW-202-1.webp"],
     "featuredImage": null
   },
   {
-    "serial": "CW-192",
-    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/ElSegundoCoupe-CW-192-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/ElSegundoCoupe-CW-192-2.webp"],
+    "serial": "CW-203",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/LancerEvolution9-CW-203-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/LancerEvolution9-CW-203-2.webp"],
     "featuredImage": null
   },
   {
-    "serial": "CW-193",
-    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/HakoTypeD-CW-193-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/HakoTypeD-CW-193-2.webp"],
-    "featuredImage": null
-  },
-  {
-    "serial": "CW-194",
-    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/LaLiebre-CW-194-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/LaLiebre-CW-194-2.webp"],
-    "featuredImage": null
-  },
-  {
-    "serial": "CW-195",
-    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/PolestarTRS-CW-195-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/PolestarTRS-CW-195-2.webp"],
-    "featuredImage": null
-  },
-  {
-    "serial": "CW-196",
-    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/'76ChevyChevette-CW-196-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/'76ChevyChevette-CW-196-2.webp"],
-    "featuredImage": null
-  },
-  {
-    "serial": "CW-197",
-    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/'69Chevelle-CW-197-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/'69Chevelle-CW-197-2.webp"],
-    "featuredImage": null
-  },
-  {
-    "serial": "CW-198",
-    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/BenzUnimog1300L-CW-198-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/BenzUnimog1300L-CW-198-2.webp"],
-    "featuredImage": null
-  },
-  {
-    "serial": "CW-199",
-    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/69COPOCAMARO_CW-199-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/69COPOCAMARO_CW-199-2.webp"],
+    "serial": "CW-204",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Countach-CW-204-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Countach-CW-204-2.webp"],
     "featuredImage": null
   }
 ]
