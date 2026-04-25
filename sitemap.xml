@@ -1001,4 +1001,44 @@
     <priority>0.6</priority>
   </url>
 
+  <url>
+    <loc>https://www.diecast.padmajp.com/?car=64%20lincoln%20continental</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.diecast.padmajp.com/?car=ford%20mustang%20mach-e%201400</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.diecast.padmajp.com/?car=ford%20f-150%20lightning%20supertruck</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.diecast.padmajp.com/?car=1799%20custom%20%2F%20personnalise%0A77%20dodge%20van%20%2F%20fourgonnette</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.diecast.padmajp.com/?car=ms-ti%20suzukat%E2%84%A2</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.diecast.padmajp.com/?car=custom%20%2F%20personnalise%20volkswagen%20beetle</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.diecast.padmajp.com/?car=grand%20cross%E2%84%A2</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.diecast.padmajp.com/?car=fandango%E2%84%A2</loc>
+    <priority>0.6</priority>
+  </url>
+
 </urlset>
