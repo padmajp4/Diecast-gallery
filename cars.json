@@ -3504,7 +3504,10 @@
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/LaLiebre-CW-194-1.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/LaLiebre-CW-194-2.webp",
     "featured": false,
     "Gifter": "",
-    "featuredImage": ""
+    "featuredImage": "",
+    "model": "La Liebre",
+    "variantId": "LaLiebre_Black",
+    "variantLabel": "La Liebre Black"
   },
   {
     "name": "Polestar TRS",
@@ -3864,7 +3867,10 @@
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/La Liebre-CW-215-1.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/La Liebre-CW-215-2.webp",
     "featured": false,
     "Gifter": "",
-    "featuredImage": ""
+    "featuredImage": "",
+    "model": "La Liebre",
+    "variantId": "LaLiebre_white",
+    "variantLabel": "La Liebre White"
   },
   {
     "name": "64 Lincoln Continental",
