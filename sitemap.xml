@@ -1041,4 +1041,24 @@
     <priority>0.6</priority>
   </url>
 
+  <url>
+    <loc>https://www.diecast.padmajp.com/?car=pagani%20zonda%20cinque</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.diecast.padmajp.com/?car=tooned%20purple%20passion</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.diecast.padmajp.com/?car=71%20porsche%20914</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.diecast.padmajp.com/?car=datsun%20620</loc>
+    <priority>0.6</priority>
+  </url>
+
 </urlset>
