@@ -1,27 +1,77 @@
 [
   {
-    "serial": "CW-225",
-    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/PAGANI ZONDA CINQUE-CW-225-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/PAGANI ZONDA CINQUE-CW-225-2.webp"],
+    "serial": "CW-230",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/FERRARI SF90 STRADALE-CW-230-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/FERRARI SF90 STRADALE-CW-230-2.webp"],
     "featuredImage": null
   },
   {
-    "serial": "CW-226",
-    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/TOONED PURPLE PASSION-CW-226-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/TOONED PURPLE PASSION-CW-226-2.webp"],
+    "serial": "CW-231",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/STANDARD KART-CW-231-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/STANDARD KART-CW-231-2.webp"],
     "featuredImage": null
   },
   {
-    "serial": "CW-227",
-    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/'69 CHEVELLE-CW-227-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/'69 CHEVELLE-CW-227-2.webp"],
+    "serial": "CW-232",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/'64 LINCOLN CONTINENTAL-CW-232-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/'64 LINCOLN CONTINENTAL-CW-232-2.webp"],
     "featuredImage": null
   },
   {
-    "serial": "CW-228",
-    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/'71 PORSCHE 914-CW-228-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/'71 PORSCHE 914-CW-228-2.webp"],
+    "serial": "CW-233",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/HONDA ODYSSEY-CW-233-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/HONDA ODYSSEY-CW-233-2.webp"],
     "featuredImage": null
   },
   {
-    "serial": "CW-229",
-    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/DATSUN 620-CW-229-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/DATSUN 620-CW-229-2.webp"],
+    "serial": "CW-234",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/ROLLER TOASTER™-CW-234-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/ROLLER TOASTER™-CW-234-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-235",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/TOONED™ VOLKSWAGEN GOLF MK1-CW-235-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/TOONED™ VOLKSWAGEN GOLF MK1-CW-235-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-236",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/2025 ASTON MARTIN VANQUISH-CW-236-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/2025 ASTON MARTIN VANQUISH-CW-236-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-237",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/1956 ASTON MARTIN DBR1-CW-237-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/1956 ASTON MARTIN DBR1-CW-237-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-238",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/2025 JEEP RECON-CW-238-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/2025 JEEP RECON-CW-238-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-239",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/GORDON MURRAY AUTOMOTIVE T.33-CW-239-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/GORDON MURRAY AUTOMOTIVE T.33-CW-239-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-240",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/CLASSIC TV SERIES BATMOBILE-CW-240-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/CLASSIC TV SERIES BATMOBILE-CW-240-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-241",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/CLASSIC:CLASSIQUE '55 NOMAD*-CW-241-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/CLASSIC:CLASSIQUE '55 NOMAD*-CW-241-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-242",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/KEI SWAP-CW-242-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/KEI SWAP-CW-242-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-243",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/'98 HONDA PRELUDE-CW-243-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/'98 HONDA PRELUDE-CW-243-2.webp"],
+    "featuredImage": null
+  },
+  {
+    "serial": "CW-244",
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/MAZDA RX-3-CW-244-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/MAZDA RX-3-CW-244-2.webp"],
     "featuredImage": null
   }
 ]
