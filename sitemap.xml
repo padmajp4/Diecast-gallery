@@ -227,7 +227,7 @@
   </url>
 
   <url>
-    <loc>https://www.diecast.padmajp.com/?car=kei%20swap</loc>
+    <loc>https://www.diecast.padmajp.com/?car=kei%20swap%C2%AE</loc>
     <priority>0.6</priority>
   </url>
 
@@ -1058,6 +1058,61 @@
 
   <url>
     <loc>https://www.diecast.padmajp.com/?car=datsun%20620</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.diecast.padmajp.com/?car=standard%20kart</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.diecast.padmajp.com/?car=honda%20odyssey</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.diecast.padmajp.com/?car=roller%20toaster%E2%84%A2</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.diecast.padmajp.com/?car=tooned%E2%84%A2%20volkswagen%20golf%20mk1</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.diecast.padmajp.com/?car=2025%20aston%20martin%20vanquish</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.diecast.padmajp.com/?car=1956%20aston%20martin%20dbr1</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.diecast.padmajp.com/?car=2025%20jeep%20recon</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.diecast.padmajp.com/?car=gordon%20murray%20automotive%20t.33</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.diecast.padmajp.com/?car=classic%20tv%20series%20batmobile</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.diecast.padmajp.com/?car=classic%2Fclassique%20'55%20nomad*</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.diecast.padmajp.com/?car=98%20honda%20prelude</loc>
     <priority>0.6</priority>
   </url>
 
