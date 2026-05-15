@@ -1,12 +1,12 @@
 [
   {
     "serial": "CW-168",
-    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/MitsubishiLancerEvolutionVI-CW-168-featured.png"],
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/MitsubishiLancerEvolutionVI-CW-168-featured.png", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/MitsubishiLancerEvolutionVI-CW-168-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/MitsubishiLancerEvolutionVI-CW-168-2.webp"],
     "featuredImage": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/MitsubishiLancerEvolutionVI-CW-168-featured.png"
   },
   {
     "serial": "CW-204",
-    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Countach-CW-204-featured.png"],
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Countach-CW-204-featured.png", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Countach-CW-204-1.webp", "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Countach-CW-204-2.webp"],
     "featuredImage": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Countach-CW-204-featured.png"
   }
 ]
