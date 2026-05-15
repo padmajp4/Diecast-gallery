@@ -3,5 +3,10 @@
     "serial": "CW-168",
     "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/MitsubishiLancerEvolutionVI-CW-168-featured.png"],
     "featuredImage": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/MitsubishiLancerEvolutionVI-CW-168-featured.png"
+  },
+  {
+    "serial": "CW-204",
+    "images": [],
+    "featuredImage": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Countach-CW-204-featured.png"
   }
 ]
