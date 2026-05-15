@@ -3056,7 +3056,7 @@
     "isTreasurehunt": false,
     "Scale": "1/64",
     "description": "A homologation icon with razor-sharp handling and turbocharged punch. Forged in rally stages. Precision over polish.",
-    "images": "",
+    "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/MitsubishiLancerEvolutionVI-CW-168-featured.png",
     "featured": true,
     "Gifter": "",
     "featuredImage": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/MitsubishiLancerEvolutionVI-CW-168-featured.png"
@@ -3692,10 +3692,10 @@
     "isTreasurehunt": false,
     "Scale": "1/64",
     "description": "The poster car of the 1980s, famous for its wedge shape and scissor doors. A radical supercar that defined the look and attitude of exotic cars for decades.",
-    "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Countach-CW-204-1.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Countach-CW-204-2.webp",
+    "images": "",
     "featured": false,
     "Gifter": "",
-    "featuredImage": ""
+    "featuredImage": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/Countach-CW-204-featured.png"
   },
   {
     "name": "Ford Explorer (#5)",
