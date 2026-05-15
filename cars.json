@@ -455,7 +455,10 @@
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/LANDROVERDEFENDER 90-CW-024-1.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/LANDROVERDEFENDER 90-CW-024-2.webp",
     "featured": false,
     "Gifter": "",
-    "featuredImage": ""
+    "featuredImage": "",
+    "model": "LAND ROVER DEFENDER 90",
+    "variantId": "LAND_ROVER_DEFENDER_90_yellow",
+    "variantLabel": "LAND ROVER DEFENDER 90 Yellow"
   },
   {
     "name": "92 FORD MUSTANG",
@@ -971,7 +974,10 @@
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/75LANDROVERDEFENDERDOUBLE -CW-052-1.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/75LANDROVERDEFENDERDOUBLE -CW-052-2.webp",
     "featured": false,
     "Gifter": "",
-    "featuredImage": ""
+    "featuredImage": "",
+    "model": "LAND ROVER DEFENDER 90",
+    "variantId": "LAND_ROVER_DEFENDER_yellow",
+    "variantLabel": "LAND ROVER DEFENDER Yellow"
   },
   {
     "name": "73 HONDA CIVIC CUSTOM",
@@ -1757,7 +1763,10 @@
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/LANDROVERDEFENDER 90-CW-096-2.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/LANDROVERDEFENDER90-CW-096-1.webp",
     "featured": false,
     "Gifter": "",
-    "featuredImage": ""
+    "featuredImage": "",
+    "model": "LAND ROVER DEFENDER 90",
+    "variantId": "LAND_ROVER_DEFENDER_90_grey",
+    "variantLabel": "LAND ROVER DEFENDER 90 Grey"
   },
   {
     "name": "Mazda 787B",
