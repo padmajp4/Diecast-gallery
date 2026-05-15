@@ -1,7 +1,7 @@
 [
   {
     "serial": "CW-168",
-    "images": [],
+    "images": ["https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/MitsubishiLancerEvolutionVI-CW-168-featured.png"],
     "featuredImage": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/MitsubishiLancerEvolutionVI-CW-168-featured.png"
   }
 ]
