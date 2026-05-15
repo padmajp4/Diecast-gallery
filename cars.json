@@ -3676,7 +3676,7 @@
     "Scale": "1/64",
     "description": "A legendary rally-bred sports sedan loved for its turbocharged power and sharp handling.One of the purest driver’s cars from Mitsubishi’s iconic Evo lineup.",
     "images": "",
-    "featured": false,
+    "featured": true,
     "Gifter": "",
     "featuredImage": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/LancerEvolution9-CW-203-featured.png"
   },
