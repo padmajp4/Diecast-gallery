@@ -947,6 +947,11 @@
   </url>
 
   <url>
+    <loc>https://www.diecast.padmajp.com/?car=countach</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
     <loc>https://www.diecast.padmajp.com/?car=ford%20explorer%20(%235)</loc>
     <priority>0.6</priority>
   </url>
