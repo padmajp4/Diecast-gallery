@@ -13,10 +13,10 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Install ImageMagick + WebP + HEIC
+      - name: Install ImageMagick + WebP + HEIC + jq
         run: |
           sudo apt-get update
-          sudo apt-get install -y imagemagick webp libheif1 libheif-examples
+          sudo apt-get install -y imagemagick webp libheif1 libheif-examples jq
 
       - name: Process images and generate JSON
         shell: bash
@@ -27,7 +27,38 @@ jobs:
           declare -A normalMap
           declare -A featuredMap
 
+          ###########################################
+          # LOAD EXISTING JSON DATA
+          ###########################################
+          if [[ -f data/images.json ]]; then
+            echo "Loading existing image data..."
+
+            while IFS=$'\t' read -r serial images featured; do
+              normalMap[$serial]="$images"
+              featuredMap[$serial]="$featured"
+            done < <(
+              jq -r '
+                .[] |
+                [
+                  .serial,
+                  (.images | map("\"" + . + "\"") | join(", ")),
+                  (
+                    if .featuredImage then
+                      "\"" + .featuredImage + "\""
+                    else
+                      "null"
+                    end
+                  )
+                ] | @tsv
+              ' data/images.json
+            )
+          fi
+
+          ###########################################
+          # PROCESS NEW IMAGES
+          ###########################################
           shopt -s nullglob
+
           for img in images/new/*; do
             file=$(basename "$img")
 
@@ -41,40 +72,51 @@ jobs:
 
             # Extract CW-### serial
             serial=$(echo "$file" | grep -oE 'CW-[0-9]+')
+
             if [[ -z "$serial" ]]; then
               echo "❌ No serial found in $file — skipping"
               continue
             fi
 
             ###########################################
-            # FEATURED IMAGE — PNG ONLY (NO CONVERT)
+            # FEATURED IMAGE — PNG ONLY
             ###########################################
             if [[ "$file" == *"-featured"* ]]; then
+
               if [[ "$file" =~ \.png$|\.PNG$ ]]; then
                 echo "Copying FEATURED PNG image: $file"
+
                 cp "$img" "images/cars/$file"
+
                 outFile="$file"
                 type="featured"
+
               else
                 echo "❌ FEATURED image must be PNG. Skipping: $file"
                 continue
               fi
 
             ###########################################
-            # NORMAL IMAGE LOGIC (HEIC SUPPORTED)
+            # NORMAL IMAGE LOGIC
             ###########################################
             else
+
               type="normal"
 
               # Already WebP → keep as-is
               if [[ "$file" =~ \.webp$|\.WEBP$ ]]; then
+
                 echo "Copying WEBP without convert: $file"
+
                 cp "$img" "images/cars/$file"
+
                 outFile="$file"
 
-              # JPG / PNG / HEIC → convert to WebP (SATURATION BOOST ONLY)
+              # JPG / PNG / HEIC → convert to WebP
               else
+
                 outFile="${file%.*}.webp"
+
                 echo "Converting to WebP (saturation +15%): $file → $outFile"
 
                 convert "$img" \
@@ -86,30 +128,46 @@ jobs:
               fi
             fi
 
-            # RAW GitHub URL
+            ###########################################
+            # CREATE RAW GITHUB URL
+            ###########################################
             url="https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/main/images/cars/$outFile"
 
-            # Store
+            ###########################################
+            # STORE DATA
+            ###########################################
             if [[ "$type" == "featured" ]]; then
+
               featuredMap[$serial]="\"$url\""
+
             else
-              if [[ -z "${normalMap[$serial]}" ]]; then
-                normalMap[$serial]="\"$url\""
+
+              # Avoid duplicates
+              existing="${normalMap[$serial]}"
+
+              if [[ "$existing" == *"$url"* ]]; then
+                echo "Image already exists in JSON"
               else
-                normalMap[$serial]="${normalMap[$serial]}, \"$url\""
+                if [[ -z "$existing" ]]; then
+                  normalMap[$serial]="\"$url\""
+                else
+                  normalMap[$serial]="${existing}, \"$url\""
+                fi
               fi
             fi
           done
 
-          ########################
-          # WRITE JSON
-          ########################
+          ###########################################
+          # WRITE FINAL JSON
+          ###########################################
           echo "[" > data/images.json
+
           first=true
 
           all_serials=$(printf "%s\n" "${!normalMap[@]}" "${!featuredMap[@]}" | sort -u)
 
           for serial in $all_serials; do
+
             normal="${normalMap[$serial]}"
             featured="${featuredMap[$serial]}"
 
@@ -124,18 +182,25 @@ jobs:
             echo "    \"images\": [${normal:-}]," >> data/images.json
             echo "    \"featuredImage\": ${featured:-null}" >> data/images.json
             echo -n "  }" >> data/images.json
+
           done
 
           echo "" >> data/images.json
           echo "]" >> data/images.json
 
-          echo "Cleaning new images…"
+          ###########################################
+          # CLEAN NEW IMAGES
+          ###########################################
+          echo "Cleaning new images..."
           rm -f images/new/*
-      
+
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
           git add images/cars data/images.json
+
           git commit -m "Processed images" || echo "No changes"
+
           git push
