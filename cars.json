@@ -3225,7 +3225,7 @@
     "serial": "CW-178",
     "brand": "Majorette",
     "series": "Mainline",
-    "Manufacture": "Nissan",
+    "Manufacture": "Benz",
     "year": 2026,
     "VehicleType": "Car",
     "Colour": "Grey",
@@ -3235,10 +3235,7 @@
     "images": "https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/MERCEDES-CW-178-1.webp, https://raw.githubusercontent.com/padmajp4/Diecast-gallery/main/images/cars/MERCEDES-CW-178-2.webp",
     "featured": false,
     "Gifter": "",
-    "featuredImage": "",
-    "model": "Nissan Skyline GTR",
-    "variantId": "Nissan-Skyline-GTR-violet",
-    "variantLabel": "Nissan Skyline GTR Violet"
+    "featuredImage": ""
   },
   {
     "name": "MERCEDES-BENZ 300 SEL 6.8 AMG",
